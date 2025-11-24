@@ -1,0 +1,28 @@
+#!/usr/bin/env zsh
+
+# Load NVM if it exists
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Load user's shell profile if it exists
+if [ -f "$HOME/.zshrc" ]; then
+  . "$HOME/.zshrc"
+fi
+
+# Ensure pnpm is available
+export PNPM_HOME="/Users/utsavnagar/Library/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+
+echo "🔍 Running pre-commit checks..."
+
+# Run lint-staged
+echo "Running lint-staged..."
+pnpm lint-staged
+RESULT=$?
+
+if [ $RESULT -ne 0 ]; then
+  echo "❌ Pre-commit checks failed. Please fix the errors and try again."
+  exit 1
+fi
+
+echo "✅ Pre-commit checks passed!"
+exit 0 

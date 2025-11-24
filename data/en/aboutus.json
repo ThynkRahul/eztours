@@ -1,0 +1,94 @@
+{
+  "pageTitle": "About us",
+  "breadcrumb": {
+    "home": "Home",
+    "current": "About us"
+  },
+  "subtitle": "Let's explore what we do!",
+  "heroSection": {
+    "title": "",
+    "description": ""
+  },
+  "mainContent": {
+    "title": "About Us",
+    "paragraphs": [
+      "Established in 2015, Eaze Tours is driven by three travel professionals, with decades of combined varied experience in the Tour industry.",
+      "Our tours are built on extensive knowledge of our destinations, an outstanding team of professionals, and personalized top-notch service. Our experts completely customize your private tour to match your interests and preferences through their comprehensive knowledge of each destination.",
+      "Our head office is in Delhi, but we have a wide network of associate offices throughout the country, manned by professionals.",
+      "We have a young team of tourism professionals who understand the values of customers and always give 100% to satisfy customer needs."
+    ]
+  },
+  "dreamDestinationSection": {
+    "title": "Your Dream Destination Awaits – We Make It Happen!",
+    "description": "At Eaze Tours, we believe that every journey should be as unique and luxurious as you are. Our expertly curated luxury holiday packages in India offer an unforgettable experience, blending comfort, elegance, and adventure.",
+    "whyChooseUsTitle": "Why Choose Us?",
+    "features": [
+      {
+        "title": "Handpicked Luxury Stays",
+        "description": "Handpicked luxury stays in star-rated, heritage, and boutique hotels, offering premium comfort and elegance for an unforgettable experience."
+      },
+      {
+        "title": "Personalized Travel Itineraries",
+        "description": "Every package is designed to match your preferences, ensuring a seamless and bespoke journey."
+      },
+      {
+        "title": "Exclusive Experiences",
+        "description": "Indulge in private tours, fine dining, and cultural encounters that make your trip truly extraordinary."
+      },
+      {
+        "title": "Authentic Cultural Experiences",
+        "description": "Explore India's rich heritage with guided tours, culinary delights, and offbeat adventures."
+      }
+    ]
+  },
+  "unforgettableExperiences": {
+    "title": "Creating Unforgettable Travel Experiences for You",
+    "description": "We are committed to making every journey seamless, enjoyable, and memorable. Whether you're exploring new destinations or revisiting old favorites, we ensure a hassle-free travel experience tailored to your needs."
+  },
+  "visionMission": {
+    "vision": {
+      "title": "Our Vision",
+      "description": "To be the leading travel service provider, offering exceptional experiences that inspire and connect people across the world."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To deliver personalized, reliable, and high-quality travel services that prioritize customer satisfaction, comfort, and adventure."
+    }
+  },
+  "trustedExperts": {
+    "title": "Trusted Experts Delivering Exceptional Service",
+    "description": "At Eaze Tours, we pride ourselves on our team of dedicated professionals who go above and beyond to provide the best travel experiences. With years of industry expertise, our team is committed to ensuring every detail of your journey is taken care of, offering personalized service to meet your unique needs. From expert planning to seamless execution, we are here to make your travels unforgettable. Trust us to turn your dream trip into a reality!",
+    "teamMembers": [
+      {
+        "name": "Manoj Singh Rana",
+        "description": "With over 28 years of industry experience, Manoj never misses an opportunity to amaze travelers. His suggestions are backed by extensive research. Truthfulness and simplicity are key points of his success.",
+        "image": "/images/aboutus/manoj.jpg"
+      },
+      {
+        "name": "Harshit Nagar",
+        "description": "Harshit has done a Master's in Tourism Management and has 18 years of experience. He has traveled and escorted groups and FITs as per requirements.",
+        "image": "/images/aboutus/harshit.jpg"
+      },
+      {
+        "name": "Jagroshan Prajapati",
+        "description": "With 25 years of experience, Jagroshan is the director of both finance and administration. He has a vast experience in tour and ticketing, along with excellent management skills.",
+        "image": "/images/aboutus/jagroshan.jpg"
+      }
+    ]
+  },
+  "contactInfo": {
+    "email": {
+      "title": "Email",
+      "addresses": ["info@eazetours.com", "harshit@eazetours.com"]
+    },
+    "location": {
+      "title": "Location",
+      "address": "Eaze House ~2nd Floor, RZP-146 Palam Colony, New Delhi, South West Delhi, 110075",
+      "mapLink": "https://maps.app.goo.gl/H7RTSzRAnT3WYnjr9"
+    },
+    "phone": {
+      "title": "Phone",
+      "numbers": ["+91 98731 86168", "+91 99116 84818", "+91 98180 06830"]
+    }
+  }
+}

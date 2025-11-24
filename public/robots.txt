@@ -1,0 +1,4 @@
+Sitemap: https://www.eazetours.com/sitemap.xml
+
+User-agent: *
+Allow: /

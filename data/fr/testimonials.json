@@ -1,0 +1,352 @@
+[
+  {
+    "Id": 16,
+    "User": "Natalia A",
+    "Title": "Un service professionnel et soucieux du détail",
+    "Content": "C'était la première fois que je venais en Inde et toute l'expérience a été formidable ! Tout était organisé avec de nombreux détails et beaucoup d'attention. Je me suis toujours sentie en sécurité et heureuse. Je suis tombée amoureuse de ce pays ! J'espère revenir bientôt !",
+    "Location": "Costa Rica",
+    "Year": 2023,
+    "Month": 3,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 17,
+    "User": "Marcel A",
+    "Title": "Excellent service et excellent guide !",
+    "Content": "Manoj et son équipe ont été excellents pendant tout notre voyage en Inde ! Nous avons visité 7 endroits différents et chaque détail, les hôtels, les transports, la nourriture et le service étaient tout simplement incroyables ! J'ai vraiment envie de revenir en Inde !",
+    "Location": "Costa Rica",
+    "Year": 2023,
+    "Month": 3,
+    "Img": "/images/male.svg"
+  },
+  {
+    "Id": 19,
+    "User": "Gabriela A",
+    "Title": "Heureux et en sécurité",
+    "Content": "Manoj a été notre guide pendant 12 jours ! Il s'est assuré que nous étions toujours heureux et en sécurité. Je recommande Eaze tours pour une visite en Inde ! Sur la photo, Manoj, alors que nous prenions notre dernier taxi pour l'aéroport.",
+    "Location": "Costa Rica",
+    "Year": 2023,
+    "Month": 3,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 10,
+    "User": "Joan C. Frisz",
+    "Content": "Je recommande vivement votre agence de voyage ! Vous (Harshit) et Manoj avez été formidables. La seule\nLa seule chose qui manquait, c'était de l'eau en quantité suffisante, parfois. Surtout lorsque nous faisions de longs trajets en voiture. Je vous remercie d'avoir contribué à rendre notre voyage aussi agréable qu'il l'a été.\nde nous avoir aidés à rendre notre voyage aussi agréable qu'il l'a été !",
+    "Location": "ÉTATS-UNIS",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 9,
+    "User": "Liz et Jill Dean",
+    "Content": "Bonjour, je suis Liz et Jill d'Anchorage, en Alaska. Honnêtement, aucune d'entre nous n'a pu penser à quoi que ce soit qui puisse être amélioré en ce qui concerne l'organisation du voyage.\nà quoi que ce soit qui puisse être amélioré en ce qui concerne l'organisation du voyage.  Tout nous a semblé\ntout semblait parfait et sans accroc.  Les hôtels, les transports et la nourriture étaient tous parfaits.  Merci pour tout, Liz et Jill Dean.\nLiz et Jill Dean",
+    "Location": "ÉTATS-UNIS",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 5,
+    "User": "Fran A'Hern Smith",
+    "Content": "Je suis à la maison et je bâille. Je tiens à vous remercier une nouvelle fois pour votre excellente capacité à planifier et à coordonner le superbe programme.\nsuperbe programme. Et pour vos qualités d'écoute et de leadership. Vous êtes une personne extraordinaire. J'espère que nous\nJ'espère que nous nous reverrons en personne, mais j'aurai toujours un lien spirituel.",
+    "Location": "ÉTATS-UNIS",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 4,
+    "User": "Erika & Karim",
+    "Content": "Cher Manoj,\nC'est un plaisir de vous rencontrer et d'être en contact avec vous.\nMerci pour votre message opportun et votre volonté de vous adapter à notre emploi du temps. C'est vraiment\nvraiment apprécié !  Nous aimerions vous remercier pour votre efficacité à rendre notre visite si confortable.\nNous nous réjouissons de vous rencontrer à nouveau dans un avenir proche.",
+    "Location": "Ville de Mexico",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 15,
+    "User": "Maria Fernanda Hidalgo",
+    "Title": "Un service professionnel et soucieux du détail",
+    "Content": "Eaze Tours a créé une expérience magique alors que je voyageais pour la première fois avec 20 amis à travers l'Inde pendant 15 jours. L'attention portée aux détails et la gentillesse du service ont été des éléments fondamentaux de notre voyage. J'ai hâte de retourner en Inde et de voyager à nouveau avec Eaze Tours. Nous n'aurions pas eu une expérience incroyable sans leur soutien !!!",
+    "Location": "",
+    "Year": 2023,
+    "Month": 3,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 20,
+    "User": "Liz W",
+    "Title": "Heureux et en sécurité",
+    "Content": "Manoj d'Eaze Tours a été un merveilleux guide pour notre groupe à Rishikesh et Agra. Il connaît très bien les villes et la culture et peut vous aider à répondre à tous vos besoins. Cette ressource a facilité les choses et tout le monde s'est senti en sécurité pendant que nous explorions ce pays extraordinaire.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2022,
+    "Month": 12,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 26,
+    "User": "Allison M",
+    "Title": "Visite du Rajasthan",
+    "Content": "C'était ma première visite en Inde et confier la logistique à Manoj Singh était la meilleure solution. Les transports, les transferts, les hôtels, les restaurants et les demandes spéciales (comme trouver une balle de cricket) ont été traités en douceur tout au long du voyage. Nos guides locaux étaient tout aussi sympathiques et compétents. Manoj s'est surpassé pour rendre notre voyage spécial - je recommande vivement son entreprise et ses services.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2020,
+    "Month": 3,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 27,
+    "User": "Circuits à deux roues",
+    "Title": "L'insouciance en Inde",
+    "Content": "Quel plaisir de voir Eaze Tours \"prendre les rênes\", organiser notre transport et nous accompagner dans les belles rues de Jaipur, Udaipur, Jodhpur et plus encore ! Manoj m'a même sauvé d'une vache en furie à un moment donné ! Il était si fier de partager son extraordinaire pays avec nous, et c'est en grande partie ce qui a rendu notre voyage inoubliable.",
+    "Location": "Charlotte, États-Unis",
+    "Year": 2020,
+    "Month": 3,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 13,
+    "User": "Allison M",
+    "Title": "Une expérience formidable avec Eaze Tours",
+    "Content": "Nous avons visité Mumbai, Varanasi, Kolkata et Katmandou avec The Village Experience et Eaze Tours. Eaze nous a proposé un itinéraire, un transport et un hébergement formidables. Harshit a voyagé avec nous et s'est assuré que nous étions bien pris en charge tout au long du voyage. C'était mon deuxième voyage en Inde avec Eaze et si j'ai la chance de revenir pour une troisième visite, je ferai de nouveau appel à Eaze.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2023,
+    "Month": 10,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 1,
+    "User": "Mariane Ewbank Rodrigues Batista",
+    "Content": "Service très professionnel. Ils ont rendu notre voyage en Inde inoubliable.",
+    "Location": "",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 3,
+    "User": "Bernadette Cognac",
+    "Content": "Je ne peux pas dire assez de bien d'Eaze Tours. Des guides merveilleux et compétents, et des chauffeurs fiables. De plus, ils connaissent tous les meilleurs endroits pour faire du shopping et déjeuner !",
+    "Location": "ÉTATS-UNIS",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 2,
+    "User": "Julie Victor",
+    "Content": "Manoj et son groupe nous ont permis de vivre une expérience merveilleuse et sans stress lors de notre voyage en Inde. Il s'est montré réceptif, aimable et serviable tout au long du voyage. Je recommande vivement Eaze Tours. Julie V voyageant avec ma famille depuis Chicago",
+    "Location": "Chicago USA",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 24,
+    "User": "Sarah",
+    "Title": "A recommander absolument",
+    "Content": "J'ai passé un excellent moment avec le groupe que j'ai rejoint à Jaipur. Nous avons fait un circuit de 9 jours basé sur le festival de Holi. Nous avons traversé un village isolé, Udaipur et terminé à Jodhpur. Quelle expérience extraordinaire ! Manoj nous a beaucoup aidés en nous donnant des informations sur le pays et la culture, en nous indiquant où aller et en nous traduisant lorsque c'était nécessaire, ce qui a rendu le processus très facile au milieu de l'effervescence de la belle Inde ! Merci pour tout Eaze Tours !",
+    "Location": "NYC, ÉTATS-UNIS",
+    "Year": 2020,
+    "Month": 3,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 8,
+    "User": "Manish et Devendra",
+    "Content": "Nous tenons à vous remercier d'avoir si bien organisé le voyage. C'était vraiment une bonne expérience. Nous aimerions\nparticulièrement apprécier Manoj pour sa gestion tout au long du voyage. Il s'est occupé de\nIl s'est occupé de tout le monde et de tous les petits besoins des membres du groupe. Tous nos clients ont apprécié ses\nservices.\nNous apprécions vraiment votre travail et votre partenariat dans ces voyages.\nRendez-vous dans 2 ans ! 🙂 .",
+    "Location": "ÉTATS-UNIS",
+    "Img": "/images/male.svg"
+  },
+  {
+    "Id": 6,
+    "User": "Laura Nitsos",
+    "Content": "Bonjour Manoj,\nIl m'a fallu quelques jours pour t'envoyer un courriel, mais je voulais te faire savoir que Tracy et moi sommes rentrés à la maison (avec le reste du groupe) lundi soir.\n(avec le reste du groupe) lundi soir. Nous étions fatigués, mais tellement heureux d'avoir eu l'occasion de visiter le nord de l'Inde.\nl'occasion de visiter le nord de l'Inde.\nJe tiens également à vous remercier pour cette expérience merveilleuse, passionnante et fascinante ! Nous avons tout adoré et nous serions ravis de retourner en Inde un jour.\nretourner en Inde un jour. Lorsque ce sera le cas, nous vous contacterons !\nMeilleurs vœux,",
+    "Location": "ÉTATS-UNIS",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 7,
+    "User": "Sandy Sheehy",
+    "Content": "Le voyage en Inde classique que vous avez si bien organisé pour l'Association internationale d'Albuquerque a dépassé les attentes de tous, Manoj.\nles attentes de tous, Manoj. Merci beaucoup pour tout le travail que vous et vos associés avez investi pour que nous vivions une expérience intellectuelle et esthétique enrichissante.\npour que nous vivions une expérience intellectuelle et esthétique enrichissante et, surtout, pour votre chaleur personnelle et votre considération.\net de votre considération. La fête de notre dernière soirée a été délicieuse. Le Ganesh que vous m'avez offert occupe désormais une place d'honneur sur le manteau de cheminée.\nplace d'honneur sur le manteau de mon salon.",
+    "Location": "ÉTATS-UNIS",
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 32,
+    "User": "Reg",
+    "Title": "EAZE Tours se met en quatre pour rendre l'expérience mémorable !",
+    "Content": "Nous avons effectué un vaste voyage dans le sud-ouest de l'Inde avec un petit groupe. EAZE Tours et Manoj ont fait le maximum pour rendre le voyage mémorable malgré quelques problèmes de transport imprévus. EAZE a également travaillé avec nous sur une base individuelle pour organiser des activités supplémentaires avant le voyage de groupe. Ils ont littéralement rendu notre voyage mémorable et sans souci.",
+    "Location": "",
+    "Year": 2019,
+    "Month": 12,
+    "Img": "/images/male.svg"
+  },
+  {
+    "Id": 33,
+    "User": "Jeff & Beth",
+    "Title": "Un voyage bien fait",
+    "Content": "Eaze Tours a fait du bon travail pour notre circuit, malgré la fermeture de l'aéroport et les nombreux déplacements en bus. Cependant, l'élément le plus impressionnant a été ce qu'un petit groupe d'entre nous a fait avant le voyage. Nous avons discuté avec Eaze Tours de quelques activités supplémentaires que nous voulions faire. Ils ont traité notre petit groupe avec la même courtoisie et le même professionnalisme que le grand groupe. Nous avons été impressionnés et satisfaits du service.",
+    "Location": "",
+    "Year": 2019,
+    "Month": 12,
+    "Img": "/images/male.svg"
+  },
+  {
+    "Id": 21,
+    "User": "Gianna",
+    "Title": "Hautement recommandé, un must pour votre voyage.",
+    "Content": "Manoj et son équipe ont rendu mon premier voyage en Inde absolument parfait. Toujours à l'heure, ils m'ont conduit là où je devais aller. Lorsque vous utilisez Eaze, vous n'avez plus l'angoisse de visiter un nouvel endroit étranger. Non seulement ils sont à l'heure et super serviables, mais ils sont aussi très amicaux et accueillants. Ils vous font sentir comme une famille et ont vraiment rendu mon voyage spécial parce que je n'avais pas à m'inquiéter de quoi que ce soit, je pouvais juste profiter de la magie de l'Inde ! HAUTEMENT recommandé... Je sais que j'utiliserai cette compagnie pour mon retour en Inde, j'espère le plus tôt possible. Merci beaucoup les gars !!!",
+    "Location": "",
+    "Year": 2022,
+    "Month": 11,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 22,
+    "User": "Kandice S",
+    "Title": "Une belle expérience",
+    "Content": "Manoj et son équipe ont été incroyables. Ils étaient là pour aider notre groupe de 18 personnes, de la seconde où nous sommes sortis de la zone de récupération des bagages jusqu'à ce que nous ayons franchi l'entrée pour prendre notre vol de départ. Lorsque mon vol a été annulé et reprogrammé, l'équipe d'Eaze Tours a pu m'aider à récupérer les informations dont j'avais besoin pour prendre l'avion et qui ne m'avaient pas été envoyées par ma compagnie aérienne. Manoj est compétent, amical, professionnel et efficace. Il a contribué à rendre l'expérience de notre groupe en Inde (et le chaos qui l'accompagne souvent) vraiment merveilleuse. Je le recommande vivement.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2022,
+    "Month": 11,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 28,
+    "User": "Moira A",
+    "Title": "L'expérience d'une vie !",
+    "Content": "C'était mon premier voyage en Inde et il a dépassé toutes mes attentes. Nous avons visité le Rajasthan, puis nous avons passé quelques jours à Delhi/Agra. Les couleurs, l'architecture, la nourriture, l'artisanat et les gens étaient absolument incroyables. Manoj Singh a fait en sorte que tout ce que nous voulions voir ou faire se réalise. Je voyage pour gagner ma vie et je sais donc à quel point il peut être difficile de gérer un groupe, de coordonner les transports, les séjours à l'hôtel, les repas, les visites touristiques, les excursions et bien d'autres choses encore. Manoj a été gentil, professionnel, patient, bien informé... et amusant ! Je le recommande sans hésitation. Si vous allez en Inde, contactez-le !",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2020,
+    "Month": 3,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 18,
+    "User": "Nisa Sanz",
+    "Title": "L'expérience la plus étonnante en Inde",
+    "Content": "Manoj et son équipe d'Eaze ont géré notre groupe de 21 femmes qui voyageaient pour la première fois en Inde pendant deux semaines. Notre groupe était complexe à gérer car nous étions toujours en train de demander de l'aide ou d'exiger toutes sortes de services de la part des hôtels et des restaurants. Manoj a toujours été présent et a tout résolu pour nous. Notre voyage s'est déroulé sans encombre, en toute sécurité, dans les délais impartis et a été des plus agréables. Si je reviens un jour en Inde, je demanderai à Eaze d'être mon tour opérateur. Ils en font toujours un peu plus, avec un grand sourire et un grand souci du détail. Nous sommes maintenant rentrés chez nous et l'hospitalité et le professionnalisme de Manoj et de son équipe nous manquent. Ils sont les meilleurs !",
+    "Location": "Costa Rica",
+    "Year": 2023,
+    "Month": 3,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 11,
+    "User": "Sandy S",
+    "Title": "Une excellente façon de découvrir l'Inde",
+    "Content": "C'était mon troisième voyage en Inde avec EAZE Tours. Autant j'avais été satisfaite par le passé (Triangle d'or et Mumbai-Goa), autant Manoj Singh et son équipe m'ont impressionnée cette fois-ci pendant les deux semaines que j'ai passées au Kerala, l'État le plus au sud-ouest de l'Inde. Les logements réservés par EAZE étaient charmants et originaux, la nourriture était savoureuse et le chauffeur de bus a fait un travail remarquable pour négocier les villes encombrées et les routes de montagne sinueuses. Et le rapport qualité-prix était exceptionnel. EAZE propose un voyage sur mesure à un prix forfaitaire.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2024,
+    "Month": 2,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 14,
+    "User": "Marcy G",
+    "Title": "Une expérience formidable",
+    "Content": "C'est la deuxième fois que je voyage en Inde avec Eaze tours, et comme la première fois, tout était parfait. Travailler avec Harshit était merveilleux, tout était bien pensé et planifié. Lui et son équipe ont pris soin de chaque détail, et lorsque des changements sont survenus, ils ont été en mesure de pivoter facilement et de nous accommoder si nécessaire. Je recommande vivement de réserver avec Eaze pour vos futurs besoins de voyage en Inde et autour de l'Inde, vous ne serez pas déçus. Nous sommes impatients de retravailler avec eux pour nos prochains voyages.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2023,
+    "Month": 10,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 34,
+    "User": "Katherine T",
+    "Title": "EAZE Tours l'a fait !",
+    "Content": "Lors d'un long voyage (12 jours) dans le sud de l'Inde, EAZE Tours n'a pas échoué, mais a réussi à résoudre tous les problèmes difficiles avec succès. Manoj a veillé à ce que nous soyons en sécurité et à ce que nous respections le calendrier. Les hôtels choisis par la société étaient tous très bien. Le voyage était difficile parce qu'il s'agissait d'un voyage à travers le sud-ouest de l'Inde. Cela n'aurait pas été possible sans l'aide d'un voyagiste.",
+    "Location": "",
+    "Year": 2019,
+    "Month": 12,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 35,
+    "User": "DC-Buzz",
+    "Title": "Voyager en Inde en toute simplicité",
+    "Content": "Pour mon premier voyage en Inde, Eaze Tours m'a facilité la tâche. Ils se sont occupés de tout pour que mon voyage soit sans stress ! Même lorsque les choses ne se passaient pas comme prévu, je n'avais aucune raison de stresser car je savais que la solution était trouvée. Je m'attendais à être débordée et épuisée, mais je suis repartie détendue et rechargée. Je n'aurais rien changé à ce voyage. Je referai sans aucun doute appel à Eaze Tours pour mon prochain voyage en Inde.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2019,
+    "Month": 12,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 38,
+    "User": "Simone Semple",
+    "Title": "Panwali Kantha et Gangotri, Gaumukh, Tapovan Trek",
+    "Content": "Je viens de vivre une aventure incroyable, un trekking et un voyage grâce à l'organisation professionnelle et amicale de Harshit d'Eaze Tours New Delhi. Nous voulions un itinéraire très spécifique, incluant dix jours de trekking dans le magnifique Himalaya, aller à la source du Gange, visiter des villages isolés. Nous voulions aussi nous imprégner de la culture, de la nourriture et des festivals propres à l'un des pays les plus incroyables, les plus intéressants et les plus beaux de la planète. Si vous envisagez de visiter l'Inde, je vous recommande vivement de prendre contact avec Eaze tours, vous ferez vraiment le voyage de votre vie.",
+    "Location": "Australie",
+    "Year": 2019,
+    "Month": 9,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 12,
+    "User": "Mikkitrow",
+    "Title": "Un autre voyage incroyable",
+    "Content": "J'ai voyagé avec Eaze Tours en octobre 2023 à Mumbai, Varanasi et Kolkata. C'était mon deuxième voyage avec Eaze et Harshit qui coordonnaient la logistique et planifiaient notre itinéraire en Inde, et je les recommande vivement à toute personne souhaitant organiser un voyage en Inde. Eaze et son équipe accordent une attention méticuleuse aux détails - tout, des transferts aéroportuaires aux visites locales, en passant par l'hébergement, les repas et tout ce dont vous avez besoin entre les deux, est planifié de manière réfléchie et de la plus haute qualité et fiabilité. Les itinéraires sont personnalisés et adaptés aux besoins et aux intérêts du groupe, avec suffisamment de flexibilité et de réactivité de la part de l'équipe pour permettre des changements en cours de route en fonction des intérêts, de l'énergie, etc. du groupe. Je me sens toujours en confiance et à l'aise avec Harshit et l'équipe d'Eaze qui coordonnent la logistique de mes voyages. Merci pour cette nouvelle expérience mémorable, Harshit !",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2023,
+    "Month": 10,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 25,
+    "User": "JP",
+    "Title": "Un premier voyage fantastique en Inde",
+    "Content": "Ma femme et moi venons de rentrer de notre premier voyage extraordinaire en Inde. Comme les voyageurs le savent, lorsqu'il s'agit de se rendre dans des pays du tiers-monde, un agent local est vraiment indispensable. Ce sont de bons amis qui nous ont recommandé Eaze Tours. Dès les premières étapes de la planification de notre voyage, nous avons trouvé en M. Manoj Singh un véritable agent de voyage professionnel. Nous avons reçu une réponse rapide à tous nos courriels. Tous les détails ont été pris en compte. Avec Eaze Tours, nous avons établi un itinéraire des endroits que nous voulions voir. M. Singh s'est occupé de tous nos vols intérieurs, de nos transferts, de nos réservations d'hôtel, de nos chauffeurs et de nos guides. Tout a fonctionné comme sur des roulettes. Eaze Tours est resté en contact permanent avec nous pendant les deux semaines de notre séjour pour s'assurer que tout allait bien (il nous a même prévenus des retards de vol). Cela a évidemment contribué à notre fantastique expérience de l'Inde. Je tiens à féliciter Eaze Tours et M. Singh pour leur dévouement, leur professionnalisme et leur volonté de fournir le meilleur service possible.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2020,
+    "Month": 3,
+    "Img": "/images/male.svg"
+  },
+  {
+    "Id": 37,
+    "User": "Bharat Pancha",
+    "Title": "Trekking dans l'Himalaya indien",
+    "Content": "Eaze a organisé pour nous deux circuits différents dans l'État de l'Uttarakhand, au nord-ouest du pays. Le trekking en Inde n'est pas comme au Népal où l'on peut séjourner dans des maisons de thé et où les repas sont cuisinés. Tout notre matériel devait être transporté et Harshit (propriétaire d'Eaze Tours) s'en est chargé pour nous. J'ai été très impressionnée par son organisation et il nous a même accompagnés à Rishikesh pour nous présenter l'équipe qui allait s'occuper de nous et s'assurer que nous étions satisfaits de la procédure. Je referai certainement appel à Harshit et Eaze Tours, que ce soit pour un trekking ou pour organiser un transport en Inde. Harshit a également organisé une journée de visite gratuite de New Delhi, ce qui a été très apprécié. Notre voyage s'est fabuleusement bien déroulé, alors merci à Harshit et Eaze Tours.",
+    "Location": "Nouvelle-Zélande",
+    "Year": 2019,
+    "Month": 9,
+    "Img": "/images/male.svg"
+  },
+  {
+    "Id": 31,
+    "User": "Barbara",
+    "Title": "Première visite en Inde",
+    "Content": "EAZE Tours et Manoj Singh nous ont aidés à organiser un voyage extraordinaire dans le nord de l'Inde. Avant notre voyage, nous avons consulté Manoj à plusieurs reprises et il nous a aidés à organiser l'itinéraire, le voyage et les hôtels. Nous avons eu des guides locaux dans chaque destination. Notre chauffeur principal Thomas était toujours ponctuel et poli, la voiture était impeccable et il était heureux de nous emmener où nous voulions même si ce n'était pas sur l'itinéraire. Tous les guides étaient bien informés et capables de répondre à toutes nos questions. Dans chaque ville, un représentant local nous a accueillis et s'est assuré que nous arrivions à notre hôtel sans problème. Même en cas de problème, le guide local et Manoj ont géré la situation et nous avons pu poursuivre notre voyage comme prévu. Nous avons été très impressionnés par le niveau d'organisation. Nous recommandons vivement Manoj Singh et EAZE tours, et nous espérons faire de nouveau appel à lui à l'avenir.",
+    "Location": "Londres, Royaume-Uni",
+    "Year": 2019,
+    "Month": 12,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 23,
+    "User": "Roncy",
+    "Title": "UNE EXPÉRIENCE INCROYABLE EN INDE",
+    "Content": "Nous avons voyagé en petit groupe (4 personnes) pour notre première visite en Inde. L'itinéraire a été proposé par M. Manoj Singh d'EAZE TOURS. Il a été très réceptif à nos suggestions et à nos demandes et a travaillé en douceur avec nous pour s'assurer que nous pourrions voir autant de choses que possible pendant nos deux semaines de séjour. Il nous a proposé d'excellents hébergements tout en respectant notre budget et s'est montré disposé à réserver différents hôtels à notre demande ! Les guides locaux de chaque destination étaient agréables, professionnels et compétents. Ils se sont également montrés flexibles pour réorganiser l'itinéraire en fonction de nos intérêts et de circonstances inattendues. Comme M. Singh, tous les guides étaient très fiers de leur pays et désireux de partager leur enthousiasme. Je voudrais faire une mention spéciale pour les chauffeurs, en particulier Thomas qui a passé cinq jours avec nous. Ils ont été uniformément serviables, agréables même pendant les longues journées de route. C'était notre premier voyage en Inde et grâce au professionnalisme de M. Singh et de son équipe, nous serions heureux de revenir et de visiter une autre partie de ce pays étonnant ! Lorsque nous le ferons, notre premier appel sera sans aucun doute pour M. Manoj et EAZE TOURS !",
+    "Location": "NYC, ÉTATS-UNIS",
+    "Year": 2020,
+    "Month": 2,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 30,
+    "User": "Lydia Asher",
+    "Title": "Une planification et un service exemplaires",
+    "Content": "Eaze Tours a fourni à notre groupe de quatre personnes le meilleur de tout - Manoj Singh a vraiment fait de ce voyage un souvenir inoubliable. Nous avons particulièrement apprécié la façon dont Manoj nous a aidés à planifier l'itinéraire, en écoutant nos demandes et en nous conseillant en conséquence. Depuis son accueil à l'aéroport, avec des guirlandes, jusqu'à notre dernier hôtel à trois heures de Delhi, où il nous a accompagnés pour s'assurer que tout se passerait comme nous le souhaitions, Manoj s'est occupé de chaque détail. Nous n'avons jamais bénéficié d'une telle attention, d'un tel chouchoutage et d'un tel service. Nous avons même eu droit à un dîner d'anniversaire gratuit. Tous les hôtels étaient parfaits (à l'exception de l'un d'entre eux où Manoj nous a rapidement et facilement transférés dans un autre hôtel sans que cela ne nous dérange) ; notre chauffeur était toujours à l'heure, souriant, serviable et gardait la voiture propre et remplie d'eau minérale ; les guides que nous avons eus dans chaque ville étaient professionnels et ont répondu à nos nombreuses questions sur la société indienne. Nous vous recommandons vivement de faire appel à Eaze Tours pour planifier votre visite en Inde, que vous fassiez partie d'un grand groupe ou que vous soyez un ou deux couples. Nous attendons avec impatience notre retour pour continuer à explorer ce pays incroyable.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2019,
+    "Month": 12,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 36,
+    "User": "Sandy S",
+    "Title": "La meilleure façon de voir TOUTES les régions de l'Inde",
+    "Content": "L'Inde est un pays intense, richement enrichissant et stimulant à visiter, et un tour-opérateur local compétent et orienté vers le client est essentiel pour tirer le meilleur parti d'une visite dans n'importe quelle partie de ce vaste sous-continent. À deux reprises, EAZE Tours a organisé des visites pour un groupe éducatif auquel j'appartiens, l'Albuquerque International Association. Le premier était le triangle d'or classique : New Delhi, Jaipur, Agra (le Taj Mahal), Varanasi et d'autres sites. Notre circuit plus récent de deux semaines, achevé juste avant Thanksgiving, comprenait Mumbai, Goa et les temples et monuments rupestres remarquables mais moins connus (pour les Occidentaux) du sud-ouest exotique de l'Inde, y compris l'ancienne ville d'Hampi. Sur chaque site, les guides locaux organisés par l'EAZE étaient exceptionnels, de véritables experts qui parlaient un anglais limpide et offraient des informations qui allaient bien au-delà de ce que nous pouvions trouver dans les guides. Tous nos hôtels étaient confortables, et la plupart d'entre eux avaient un charme particulier. La nourriture était délicieuse. Nos chauffeurs et leurs assistants étaient habiles et aimables. Les interactions fortuites avec le peuple indien, chaleureux et généreux, ont été l'un des points forts du voyage. Nous avons même pu assister à la préparation de deux mariages ! Pour les membres de notre groupe qui n'avaient pas participé au voyage précédent, l'EAZE a organisé des visites privées après le voyage. Le fondateur et directeur de l'entreprise, Manoj Singh, est un superbe ambassadeur de ce pays qu'il aime manifestement beaucoup, et son personnel a travaillé sans relâche pour rendre ce voyage inoubliable.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2019,
+    "Month": 11,
+    "Img": "/images/female.svg"
+  },
+  {
+    "Id": 29,
+    "User": "Aroop M",
+    "Title": "Excellente expérience",
+    "Content": "Je suis récemment partie avec un groupe d'Albuquerque, NM USA, dans divers endroits du sud de l'Inde. Le voyage de groupe s'est déroulé du 10 novembre 2019 au 22 novembre. En outre, j'ai voyagé seul dans le nord de l'Inde. En résumé, l'arrangement fait par Manoj était excellent, et Manoj était avec nous pendant toute la période des visites. Il a su communiquer clairement. Il a informé tout le monde des dispositions prises, du calendrier et des projets pour la journée. Cela a permis un déroulement harmonieux de la journée et a évité toute confusion. Il était toujours disponible pour répondre aux questions. Les bus étaient de bonne qualité et ponctuels. Les dispositions concernant l'eau et les pauses étaient très appropriées. Nous avons été informés à l'avance de la durée de chaque voyage. Les hôtels dans lesquels nous avons séjourné étaient de qualité et de haut niveau. Au moment de l'enregistrement, le personnel de l'hôtel avait préparé nos clés et nos chambres, et il y a eu très peu de retards. Sur chaque site touristique, nous avons eu d'excellents guides. Ils connaissaient bien les sites historiques ainsi que l'histoire, la culture et l'économie de la région où nous nous trouvions. À un moment donné, notre vol a été annulé. Manoj a fait appel à toute son équipe. Ils ont organisé des bus de remplacement et trouvé un autre vol pour l'ensemble du groupe. Il nous a tenus informés et nous a guidés dans les aéroports indiens quelque peu chaotiques. Enfin, il a organisé un grand dîner d'adieu avec musique et danse, ce qui était très amusant. Comme je l'ai dit, j'avais également besoin de vols et de transports terrestres séparés du groupe. Cela aussi a été fait en douceur et sans problème. Je recommande vivement Manoj et Eazetours à tout voyageur en Inde.",
+    "Location": "ÉTATS-UNIS",
+    "Year": 2019,
+    "Month": 11,
+    "Img": "/images/male.svg"
+  }
+]

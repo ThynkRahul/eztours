@@ -1,0 +1,277 @@
+{
+  "landing": {
+    "hero": {
+      "heading": "Discover Your Next Adventure Create Memories",
+      "description": "Unforgettable journeys, curated just for you. Explore breathtaking destinations, exclusive deals, and seamless travel experiences.",
+      "cta": "Contact Us"
+    },
+    "infoBoxes": {
+      "box1": {
+        "heading": "Book Festive Season Tours Now!",
+        "content": "Find amazing deals for your travel plans on luxury holiday packages in India, select your holiday package now!"
+      },
+      "box2": {
+        "heading": "What's New at Eaze Tours",
+        "content": "Find out what's happening at Eaze Tours – from special discounts to the latest updates on India tour packages."
+      },
+      "box3": {
+        "heading": "Eaze Tours Spotlight",
+        "content": "Discover our featured destinations, top-rated tours, and the exceptional experiences we offer."
+      },
+      "box4": {
+        "heading": "Extremely Happy Travellers",
+        "content": "Eaze Tours holds record of great customer satisfaction and all customers are retained with us. Happy Travelling!"
+      }
+    },
+    "destinations": {
+      "heading": "Top Destination for your next vacation",
+      "locations": {
+        "india": {
+          "title": "India",
+          "content": "Explore the cultural diversity of India."
+        },
+        "maldives": {
+          "title": "Maldives",
+          "content": "Relax on the pristine beaches of Maldives."
+        },
+        "nepal": {
+          "title": "Nepal",
+          "content": "Discover the Himalayan beauty in Nepal."
+        },
+        "bhutan": {
+          "title": "Bhutan",
+          "content": "Experience the peace and serenity of Bhutan."
+        },
+        "sriLanka": {
+          "title": "Sri Lanka",
+          "content": "Discover the stunning beaches and rich heritage of Sri Lanka."
+        }
+      },
+      "cta": "See All Destinations",
+      "ctaButton": "See All Tours"
+    },
+    "tripIdeas": {
+      "heading": "Trip Ideas To Inspire You",
+      "indiaTrip": {
+        "heading": "India (Delhi, Varanasi, Agra)",
+        "description": "Embark on a royal journey through India, exploring Delhi's majestic monuments, Varanasi's spiritual ghats, and Agra's iconic Taj Mahal treasures.",
+        "cta": "See All Activities"
+      },
+      "amritsarTrip": {
+        "heading": "Explore the Rich Heritage of Amritsar",
+        "description": "Explore Amritsar beyond the Golden Temple with curated tour packages that uncover hidden gems, vibrant culture, and historical treasures of this iconic city.",
+        "cta": "See All Activities"
+      }
+    },
+    "popularPackages": {
+      "heading": "Popular Packages",
+      "packages": {
+        "package1": {
+          "location": "India",
+          "route": "Delhi - Mandawa Bikaner - Jaisalmer Jodhpur-Luni - Ranakpur - Udaipur",
+          "tags": ["Cultural", "Traditional"],
+          "imagePath": "box1.png"
+        },
+        "package2": {
+          "location": "India",
+          "route": "Delhi - Manali - Keylong - Hemis Pangong Lake - Tso Moriri Lake",
+          "tags": ["Adventures", "Spirituality"],
+          "imagePath": "box2.png"
+        },
+        "package3": {
+          "location": "India",
+          "route": "Rishikesh - Haridwar - Pune - Bangalore - Bhubaneswar",
+          "tags": ["Ayurveda", "Wellness"],
+          "imagePath": "box3.png"
+        },
+        "package4": {
+          "location": "India",
+          "route": "New Delhi - Mumbai - Goa - Kerala - Ranthambore - Agra - Jodhpur",
+          "tags": ["Luxury", "Royal"],
+          "imagePath": "box4.png"
+        },
+        "package5": {
+          "location": "India",
+          "route": "Bagdogra Airport - Gangtok - Kalimpong - Darjeeling",
+          "tags": ["Adventures", "Culture"],
+          "imagePath": "tour_box.webp"
+        },
+        "package6": {
+          "location": "India",
+          "route": "Delhi – Jaipur – Agra – Khajuraho – Varanasi – Delhi",
+          "tags": ["Traditional", "Relaxation"],
+          "imagePath": "tour_box2.webp"
+        },
+        "package7": {
+          "location": "India",
+          "route": "Mumbai - Baroda - Bhuj - Ahmedamad - Utellia - Balaram - Patan - Little Rann of Kutch - Bhuj",
+          "tags": ["Tribals", "Heritage"],
+          "imagePath": "tour_box3.webp"
+        },
+        "package8": {
+          "location": "India",
+          "route": "Delhi – Jaipur – Ranthambore – Bharatpur – Agra – Umaria – Bandhavgarhh – Kanha – Jabalpur",
+          "tags": ["Wildlife", "Nature"],
+          "imagePath": "tour_box4.webp"
+        }
+      },
+      "cta": {
+        "details": "More Details",
+        "allPackages": "See All Packages"
+      }
+    },
+    "testimonials": {
+      "heading": "What Clients Say About Us",
+      "reviews": {
+        "review1": {
+          "name": "Julie Victor",
+          "location": "Chicago USA",
+          "content": "Manoj and his group created wonderful stress-free experiences for us while traveling in India. He was responsive kind and helpful throughout. I recommend Eaze Tours highly. Julie V traveling with my family from Chicago."
+        },
+        "review2": {
+          "name": "Manish",
+          "location": "USA",
+          "content": "We would like to thank you for arranging the Trip so nicely. It was really a good experience. We would specially like to appreciate Manoj for his management throughout the trip."
+        },
+        "review3": {
+          "name": "Bernadette Cognac",
+          "location": "USA",
+          "content": "I cannot say enough good things about Eaze Tours. Wonderful, knowledgeable guides, and reliable drivers. Plus they know all the best spots for shopping and lunch!"
+        },
+        "review4": {
+          "name": "Liz and Jill Dean",
+          "location": "USA",
+          "content": "Hello, this is Liz and Jill from Anchorage, Alaska. Honestly, neither of us could think of anything that had to do with the tour management that could be improved. It all seemed seamless and smooth. The hotels, transportation, and food were all perfect. Thank you for everything, Liz and Jill Dean"
+        },
+        "review5": {
+          "name": "Laura Nitsos",
+          "location": "USA",
+          "content": "Hi Manoj, It's taken me a few days to get an email to you, but I wanted to let you know Tracy and I made it home (along with the rest of the group) Monday night. We were tired, but so happy to have had the opportunity to visit northern India."
+        },
+        "review6": {
+          "name": "Fran A'Hern Smith",
+          "location": "USA",
+          "content": "I am home and yawning. I want to thank you again for your excellent ability to plan and coordinate the superb agenda. And, for your listening and leadership skills. You are one amazing person. I hope we meet again in person but I will always have a spirit connection."
+        }
+      },
+      "cta": "View All"
+    },
+    "subscribe": {
+      "heading": "Subscribe & Get 20% off",
+      "description": "Subscribe to our newsletter and get the latest updates and exclusive offers.",
+      "placeholder": "Enter your email",
+      "button": "Sign Up",
+      "toast": "Subscription successful! Check your inbox for updates."
+    },
+    "gallery": {
+      "heading": "The Unforgettable Tour Gallery",
+      "cta": {
+        "viewAll": "View All",
+        "instagram": "Follow On Instagram"
+      }
+    },
+    "common": {
+      "reviews": "Reviews",
+      "rating": "5.00"
+    }
+  },
+  "blogs": {
+    "accreditations": {
+      "heading": "Our Accreditations & Certifications"
+    },
+    "latest": {
+      "heading": "Latest Blog & Articles"
+    },
+    "blogCard": {
+      "company": "Eaze Tours",
+      "location": "India",
+      "continueReading": "Continue Reading"
+    },
+    "cta": {
+      "viewAll": "View All"
+    }
+  },
+  "navigation": {
+    "links": {
+      "home": "Home",
+      "aboutUs": "About Us",
+      "testimonials": "Testimonials",
+      "packages": "Packages",
+      "gallery": "Gallery",
+      "contactUs": "Contact Us"
+    }
+  },
+  "footer": {
+    "about": "Established in 2015, Eaze Tours is driven by three travel professionals, with decades of combined varied experience in the tour industry.",
+    "sections": {
+      "usefulLinks": "Useful Links",
+      "topDestinations": "Top Destinations",
+      "contactUs": "Contact Us"
+    },
+    "destinations": {
+      "delhi": "Delhi",
+      "jaipur": "Jaipur",
+      "agra": "Agra",
+      "varanasi": "Varanasi",
+      "goa": "Goa"
+    },
+    "copyright": "Copyright © Eaze Tours {year} All Rights Reserved."
+  },
+  "contact": {
+    "offices": {
+      "delhi": {
+        "title": "Head Office - New Delhi",
+        "name": "Eaze Tours",
+        "address": "Eaze House –Second Floor, RZP- 146, Gali No 2 Raj Nagar Part 2, Palam Colony, New Delhi, South West Delhi, 110075"
+      },
+      "varanasi": {
+        "title": "Branch Office – Varanasi",
+        "address": "Eaze House - Sa 6/186-76 Srinagar Colony Pahariya, Varanasi 221007"
+      }
+    },
+    "form": {
+      "title": "Write to us !",
+      "subtitle": "Want to enquire about a package?",
+      "subtitle2": "Have a general query about Indian tours?",
+      "subtitle3": "Write to us to know more details and get a well tailored package to your needs !",
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "submit": "Send",
+      "success": "We have received your query ! Your tailor made itinerary is cooking"
+    }
+  },
+  "cookies": {
+    "message": "We use cookies on our site.",
+    "decline": "Decline",
+    "accept": "Allow Cookies"
+  },
+  "about": {
+    "team": {
+      "title": "About Our Team",
+      "description": [
+        "Established in 2015, Eaze Tours is driven by three travel professionals, with decades of combined varied experience in Tour industry.",
+        "Our tours are built on extensive knowledge of our destinations, an outstanding team of professionals, and personalized top-notch service. Our experts completely customize your private tour to match your interests and preferences through their comprehensive knowledge of each destination.",
+        "Our head office is in Delhi, but we have a wide network of associate offices throughout the country manned by professionals.",
+        "We have young Team and Tourism professionals who knows values of customers and always gives 100% to satisfy customer needs."
+      ]
+    },
+    "members": {
+      "manoj": {
+        "name": "Manoj Singh Rana",
+        "description": "With over 28 years of industry experience, never missing an opportunity to amaze the traveller. His suggestions are backed by extensive research. Truthfulness and simplicity are two main points of his success."
+      },
+      "harshit": {
+        "name": "Harshit Nagar",
+        "description": "Harshit has done Masters in Tourism Management and have experience of over 18 years. Travelled and escorted with groups and FIT's as per requirement."
+      },
+      "jagroshan": {
+        "name": "Jagroshan Prajapati",
+        "description": "He has an experience of about 25 years in his field. He is the director of both finance and administration. He has a vast experience of Tour and Ticketing and having excellent management skill"
+      }
+    }
+  }
+}

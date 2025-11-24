@@ -1,0 +1,278 @@
+{
+  "landing": {
+    "hero": {
+      "heading": "Entdecken Sie Ihr nächstes Abenteuer Schaffen Sie Erinnerungen",
+      "description": "Unvergessliche Reisen, die nur für Sie zusammengestellt werden. Entdecken Sie atemberaubende Reiseziele, exklusive Angebote und nahtlose Reiseerlebnisse.",
+      "cta": "Kontakt"
+    },
+    "infoBoxes": {
+      "box1": {
+        "heading": "Buchen Sie jetzt die Festtagstouren!",
+        "content": "Finden Sie erstaunliche Angebote für Ihre Reisepläne auf Luxus-Urlaubspakete in Indien, wählen Sie Ihr Urlaubspaket jetzt!"
+      },
+      "box2": {
+        "heading": "Was gibt es Neues bei Eaze Tours?",
+        "content": "Finde heraus, was bei Eaze Tours passiert - von speziellen Rabatten bis hin zu den neuesten Updates über Indien-Reisepakete."
+      },
+      "box3": {
+        "heading": "Eaze Tours Spotlight",
+        "content": "Entdecken Sie unsere vorgestellten Reiseziele, die am besten bewerteten Touren und die außergewöhnlichen Erlebnisse, die wir anbieten."
+      },
+      "box4": {
+        "heading": "Äußerst glückliche Reisende",
+        "content": "Eaze Tours ist für seine hohe Kundenzufriedenheit bekannt und alle Kunden bleiben uns erhalten. Viel Spaß beim Reisen!"
+      }
+    },
+    "destinations": {
+      "heading": "Top-Destination für Ihren nächsten Urlaub",
+      "locations": {
+        "india": {
+          "title": "Indien",
+          "content": "Erkunden Sie die kulturelle Vielfalt Indiens."
+        },
+        "maldives": {
+          "title": "Malediven",
+          "content": "Entspannen Sie sich an den unberührten Stränden der Malediven."
+        },
+        "nepal": {
+          "title": "Nepal",
+          "content": "Entdecken Sie die Schönheit des Himalayas in Nepal."
+        },
+        "bhutan": {
+          "title": "Bhutan",
+          "content": "Erleben Sie die Ruhe und Gelassenheit von Bhutan."
+        },
+        "sriLanka": {
+          "title": "Sri Lanka",
+          "content": "Entdecken Sie die atemberaubenden Strände und das reiche Erbe Sri Lankas."
+        }
+      },
+      "cta": "Alle Reiseziele anzeigen",
+      "ctaButton": "Alle Touren anzeigen"
+    },
+    "tripIdeas": {
+      "heading": "Ausflugsideen zur Inspiration",
+      "indiaTrip": {
+        "heading": "Indien (Delhi, Varanasi, Agra)",
+        "description": "Begeben Sie sich auf eine königliche Reise durch Indien und erkunden Sie die majestätischen Monumente Delhis, die spirituellen Ghats von Varanasi und die berühmten Schätze des Taj Mahal in Agra.",
+        "cta": "Alle Aktivitäten anzeigen"
+      },
+      "amritsarTrip": {
+        "heading": "Entdecken Sie das reiche Erbe von Amritsar",
+        "description": "Erkunden Sie Amritsar auch jenseits des Goldenen Tempels mit ausgewählten Reisepaketen, die verborgene Juwelen, die lebendige Kultur und die historischen Schätze dieser legendären Stadt aufdecken.",
+        "cta": "Alle Aktivitäten anzeigen"
+      }
+    },
+    "popularPackages": {
+      "heading": "Beliebte Pakete",
+      "packages": {
+        "package1": {
+          "location": "Indien",
+          "route": "Delhi - Mandawa Bikaner - Jaisalmer Jodhpur-Luni - Ranakpur - Udaipur",
+          "tags": ["Kulturelles", "Traditionell"],
+          "imagePath": "box1.png"
+        },
+        "package2": {
+          "location": "Indien",
+          "route": "Delhi - Manali - Keylong - Hemis Pangong See - Tso Moriri See",
+          "tags": ["Abenteuer", "Spiritualität"],
+          "imagePath": "box2.png"
+        },
+        "package3": {
+          "location": "Indien",
+          "route": "Rishikesh - Haridwar - Pune - Bangalore - Bhubaneswar",
+          "tags": ["Ayurveda", "Wellness"],
+          "imagePath": "box3.png"
+        },
+        "package4": {
+          "location": "Indien",
+          "route": "Neu Delhi - Mumbai - Goa - Kerala - Ranthambore - Agra - Jodhpur",
+          "tags": ["Luxus", "Königlich"],
+          "imagePath": "box4.png"
+        },
+        "package5": {
+          "location": "Indien",
+          "route": "Bagdogra Flughafen - Gangtok - Kalimpong - Darjeeling",
+          "tags": ["Abenteuer", "Kultur"],
+          "imagePath": "tour_box.webp"
+        },
+        "package6": {
+          "location": "Indien",
+          "route": "Delhi - Jaipur - Agra - Khajuraho - Varanasi - Delhi",
+          "tags": ["Traditionell", "Entspannung"],
+          "imagePath": "tour_box2.webp"
+        },
+        "package7": {
+          "location": "Indien",
+          "route": "Mumbai - Baroda - Bhuj - Ahmedamad - Utellia - Balaram - Patan - Kleines Rann von Kutch - Bhuj",
+          "tags": ["Stämme", "Erbe"],
+          "imagePath": "tour_box3.webp"
+        },
+        "package8": {
+          "location": "Indien",
+          "route": "Delhi - Jaipur - Ranthambore - Bharatpur - Agra - Umaria - Bandhavgarhh - Kanha - Jabalpur",
+          "tags": ["Wildtiere", "Natur"],
+          "imagePath": "tour_box4.webp"
+        }
+      },
+      "cta": {
+        "details": "Mehr Details",
+        "allPackages": "Alle Pakete anzeigen"
+      }
+    },
+    "testimonials": {
+      "heading": "Was Kunden über uns sagen",
+      "reviews": {
+        "review1": {
+          "name": "Julie Victor",
+          "location": "Chicago, USA",
+          "content": "Manoj und seine Gruppe haben uns eine wunderbare, stressfreie Erfahrung während unserer Indienreise ermöglicht. Er war immer freundlich und hilfsbereit. Ich empfehle Eaze Tours sehr. Julie V. reist mit meiner Familie aus Chicago."
+        },
+        "review2": {
+          "name": "Manish",
+          "location": "USA",
+          "content": "Wir möchten uns bei Ihnen bedanken, dass Sie die Reise so gut organisiert haben. Es war wirklich eine gute Erfahrung. Wir möchten besonders Manoj für sein Management während der gesamten Reise zu schätzen wissen."
+        },
+        "review3": {
+          "name": "Bernadette Kognak",
+          "location": "USA",
+          "content": "Ich kann nicht genug gute Dinge über Eaze Tours sagen. Wunderbare, sachkundige Führer und zuverlässige Fahrer. Außerdem kennen sie die besten Plätze zum Einkaufen und Mittagessen!"
+        },
+        "review4": {
+          "name": "Liz und Jill Dean",
+          "location": "USA",
+          "content": "Hallo, hier sind Liz und Jill aus Anchorage, Alaska. Ehrlich gesagt, konnte keiner von uns an irgendetwas denken, was mit der Reiseleitung zu tun hatte, das verbessert werden könnte. Es schien alles nahtlos und reibungslos zu sein. Die Hotels, der Transport und das Essen waren alle perfekt. Vielen Dank für alles, Liz und Jill Dean"
+        },
+        "review5": {
+          "name": "Laura Nitsos",
+          "location": "USA",
+          "content": "Hallo Manoj, es hat ein paar Tage gedauert, bis ich dir eine E-Mail geschickt habe, aber ich wollte dich wissen lassen, dass Tracy und ich (zusammen mit dem Rest der Gruppe) am Montagabend nach Hause gekommen sind. Wir waren müde, aber sehr froh, dass wir die Gelegenheit hatten, Nordindien zu besuchen."
+        },
+        "review6": {
+          "name": "Fran A'Hern Smith",
+          "location": "USA",
+          "content": "Ich bin zu Hause und gähne. Ich möchte Ihnen nochmals für Ihre ausgezeichnete Fähigkeit danken, die hervorragende Tagesordnung zu planen und zu koordinieren. Und für Ihre Fähigkeit, zuzuhören und zu führen. Sie sind ein erstaunlicher Mensch. Ich hoffe, wir sehen uns wieder persönlich, aber ich werde immer eine geistige Verbindung haben."
+        }
+      },
+      "cta": "Alle anzeigen"
+    },
+    "subscribe": {
+      "heading": "Abonnieren und 20% Rabatt erhalten",
+      "description": "Abonnieren Sie unseren Newsletter und erhalten Sie die neuesten Informationen und exklusive Angebote.",
+      "placeholder": "Ihre E-Mail eingeben",
+      "button": "Anmeldung",
+      "toast": "Abonnement erfolgreich! Prüfen Sie Ihren Posteingang auf Updates."
+    },
+    "gallery": {
+      "heading": "Die Unvergessliche Tour Galerie",
+      "cta": {
+        "viewAll": "Alle anzeigen",
+        "instagram": "Auf Instagram folgen"
+      }
+    },
+    "common": {
+      "reviews": "Bewertungen",
+      "rating": "5.00"
+    }
+  },
+  "blogs": {
+    "accreditations": {
+      "heading": "Unsere Akkreditierungen und Zertifizierungen"
+    },
+    "latest": {
+      "heading": "Neuester Blog & Artikel"
+    },
+    "blogCard": {
+      "company": "Eaze Touren",
+      "location": "Indien",
+      "continueReading": "Lesen Sie weiter"
+    },
+    "cta": {
+      "viewAll": "Alle anzeigen"
+    }
+  },
+  "navigation": {
+    "links": {
+      "home": "Startseite",
+      "aboutUs": "Über uns",
+      "testimonials": "Testimonials",
+      "packages": "Pakete",
+      "gallery": "Galerie",
+      "contactUs": "Kontakt",
+      "blog": "Blog"
+    }
+  },
+  "footer": {
+    "about": "Eaze Tours wurde 2015 gegründet und wird von drei Reiseprofis geleitet, die zusammen über jahrzehntelange Erfahrung in der Reisebranche verfügen.",
+    "sections": {
+      "usefulLinks": "Nützliche Links",
+      "topDestinations": "Top-Reiseziele",
+      "contactUs": "Kontakt"
+    },
+    "destinations": {
+      "delhi": "Delhi",
+      "jaipur": "Jaipur",
+      "agra": "Agra",
+      "varanasi": "Varanasi",
+      "goa": "Goa"
+    },
+    "copyright": "Copyright © Eaze Tours {Jahr} Alle Rechte vorbehalten."
+  },
+  "contact": {
+    "offices": {
+      "delhi": {
+        "title": "Hauptsitz - Neu Delhi",
+        "name": "Eaze Touren",
+        "address": "Eaze House - Second Floor, RZP- 146, Gali No 2 Raj Nagar Part 2, Palam Colony, New Delhi, South West Delhi, 110075"
+      },
+      "varanasi": {
+        "title": "Zweigstelle - Varanasi",
+        "address": "Eaze House - Sa 6/186-76 Srinagar Colony Pahariya, Varanasi 221007"
+      }
+    },
+    "form": {
+      "title": "Schreiben Sie uns!",
+      "subtitle": "Möchten Sie sich über ein Paket erkundigen?",
+      "subtitle2": "Haben Sie eine allgemeine Frage zu Indienreisen?",
+      "subtitle3": "Schreiben Sie uns, um mehr Details zu erfahren und ein auf Ihre Bedürfnisse zugeschnittenes Paket zu erhalten!",
+      "fields": {
+        "name": "Name",
+        "email": "E-Mail",
+        "subject": "Thema",
+        "message": "Nachricht"
+      },
+      "submit": "Senden Sie",
+      "success": "Wir haben Ihre Anfrage erhalten! Ihre maßgeschneiderte Reiseroute ist Kochen"
+    }
+  },
+  "cookies": {
+    "message": "Wir verwenden Cookies auf unserer Website.",
+    "decline": "Rückgang",
+    "accept": "Cookies zulassen"
+  },
+  "about": {
+    "team": {
+      "title": "Über unser Team",
+      "description": [
+        "Eaze Tours wurde 2015 gegründet und wird von drei Reiseprofis geleitet, die zusammen über jahrzehntelange Erfahrung in der Reisebranche verfügen.",
+        "Unsere Reisen beruhen auf umfassenden Kenntnissen unserer Reiseziele, einem hervorragenden Team von Fachleuten und einem persönlichen, erstklassigen Service. Unsere Experten passen Ihre private Tour vollständig an Ihre Interessen und Vorlieben an, da sie über umfassende Kenntnisse des jeweiligen Reiseziels verfügen.",
+        "Unser Hauptsitz befindet sich in Delhi, aber wir verfügen über ein breites Netz von Partnerbüros im ganzen Land, die mit Fachleuten besetzt sind.",
+        "Wir haben ein junges Team und Tourismusfachleute, die die Werte der Kunden kennen und immer 100% geben, um die Bedürfnisse der Kunden zu befriedigen."
+      ]
+    },
+    "members": {
+      "manoj": {
+        "name": "Manoj Singh Rana",
+        "description": "Mit mehr als 28 Jahren Branchenerfahrung lässt er keine Gelegenheit aus, den Reisenden zu überraschen. Seine Vorschläge sind durch umfangreiche Recherchen untermauert. Wahrhaftigkeit und Einfachheit sind zwei Hauptpunkte seines Erfolgs."
+      },
+      "harshit": {
+        "name": "Harshit Nagar",
+        "description": "Harshit hat einen Master in Tourismusmanagement gemacht und hat über 18 Jahre Erfahrung. Er reiste und begleitete Gruppen und FITs je nach Bedarf."
+      },
+      "jagroshan": {
+        "name": "Jagroshan Prajapati",
+        "description": "Er verfügt über eine Erfahrung von etwa 25 Jahren in seinem Bereich. Er ist der Leiter der Finanz- und Verwaltungsabteilung. Er verfügt über umfangreiche Erfahrungen im Bereich Tour und Ticketing sowie über ausgezeichnete Managementfähigkeiten."
+      }
+    }
+  }
+}

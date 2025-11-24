@@ -1,0 +1,94 @@
+{
+  "pageTitle": "A propos de nous",
+  "breadcrumb": {
+    "home": "Accueil",
+    "current": "A propos de nous"
+  },
+  "subtitle": "Explorons ce que nous faisons !",
+  "heroSection": {
+    "title": "",
+    "description": ""
+  },
+  "mainContent": {
+    "title": "À propos de nous",
+    "paragraphs": [
+      "Établie en 2015, Eaze Tours est dirigée par trois professionnels du voyage, avec des décennies d'expérience variée combinée dans l'industrie du tourisme.",
+      "Nos circuits s'appuient sur une connaissance approfondie de nos destinations, une équipe de professionnels hors pair et un service personnalisé de premier ordre. Nos experts personnalisent entièrement votre circuit privé en fonction de vos intérêts et de vos préférences grâce à leur connaissance approfondie de chaque destination.",
+      "Notre siège social se trouve à Delhi, mais nous disposons d'un vaste réseau de bureaux associés dans tout le pays, gérés par des professionnels.",
+      "Nous disposons d'une jeune équipe de professionnels du tourisme qui comprennent les valeurs des clients et se donnent toujours à 100 % pour satisfaire leurs besoins."
+    ]
+  },
+  "dreamDestinationSection": {
+    "title": "Votre destination de rêve vous attend - Nous la réalisons !",
+    "description": "Chez Eaze Tours, nous pensons que chaque voyage doit être aussi unique et luxueux que vous. Nos forfaits de vacances de luxe en Inde, élaborés par des experts, offrent une expérience inoubliable, alliant confort, élégance et aventure.",
+    "whyChooseUsTitle": "Pourquoi nous choisir ?",
+    "features": [
+      {
+        "title": "Séjours de luxe triés sur le volet",
+        "description": "Des séjours de luxe triés sur le volet dans des hôtels étoilés, patrimoniaux et de charme, offrant un confort et une élégance de premier ordre pour une expérience inoubliable."
+      },
+      {
+        "title": "Itinéraires de voyage personnalisés",
+        "description": "Chaque formule est conçue en fonction de vos préférences, ce qui vous garantit un voyage sans faille et sur mesure."
+      },
+      {
+        "title": "Expériences exclusives",
+        "description": "Profitez de visites privées, de repas raffinés et de rencontres culturelles qui rendront votre voyage vraiment extraordinaire."
+      },
+      {
+        "title": "Expériences culturelles authentiques",
+        "description": "Explorez le riche patrimoine de l'Inde grâce à des visites guidées, des délices culinaires et des aventures décalées."
+      }
+    ]
+  },
+  "unforgettableExperiences": {
+    "title": "Créer pour vous des expériences de voyage inoubliables",
+    "description": "Nous nous engageons à rendre chaque voyage fluide, agréable et mémorable. Que vous partiez à la découverte de nouvelles destinations ou que vous revisitiez vos anciennes favorites, nous vous garantissons une expérience de voyage sans tracas, adaptée à vos besoins."
+  },
+  "visionMission": {
+    "vision": {
+      "title": "Notre vision",
+      "description": "Être le premier fournisseur de services de voyage, offrant des expériences exceptionnelles qui inspirent et relient les gens à travers le monde."
+    },
+    "mission": {
+      "title": "Notre mission",
+      "description": "Fournir des services de voyage personnalisés, fiables et de haute qualité qui donnent la priorité à la satisfaction du client, au confort et à l'aventure."
+    }
+  },
+  "trustedExperts": {
+    "title": "Des experts de confiance pour un service exceptionnel",
+    "description": "Chez Eaze Tours, nous sommes fiers de notre équipe de professionnels dévoués qui se surpassent pour vous offrir les meilleures expériences de voyage. Forte de ses années d'expérience dans le secteur, notre équipe s'engage à veiller à ce que chaque détail de votre voyage soit pris en charge, en offrant un service personnalisé pour répondre à vos besoins uniques. De la planification experte à l'exécution sans faille, nous sommes là pour rendre vos voyages inoubliables. Faites-nous confiance pour faire de votre voyage de rêve une réalité !",
+    "teamMembers": [
+      {
+        "name": "Manoj Singh Rana",
+        "description": "Avec plus de 28 ans d'expérience dans le secteur, Manoj ne manque jamais une occasion d'étonner les voyageurs. Ses suggestions s'appuient sur des recherches approfondies. La sincérité et la simplicité sont les clés de son succès.",
+        "image": "/images/aboutus/manoj.jpg"
+      },
+      {
+        "name": "Harshit Nagar",
+        "description": "Harshit est titulaire d'une maîtrise en gestion du tourisme et possède 18 ans d'expérience. Il a voyagé et accompagné des groupes et des FIT selon les besoins.",
+        "image": "/images/aboutus/harshit.jpg"
+      },
+      {
+        "name": "Jagroshan Prajapati",
+        "description": "Avec 25 ans d'expérience, Jagroshan est le directeur des finances et de l'administration. Il possède une vaste expérience dans le domaine des voyages et de la billetterie, ainsi que d'excellentes compétences en matière de gestion.",
+        "image": "/images/aboutus/jagroshan.jpg"
+      }
+    ]
+  },
+  "contactInfo": {
+    "email": {
+      "title": "Courriel",
+      "addresses": ["info@eazetours.com", "harshit@eazetours.com"]
+    },
+    "location": {
+      "title": "Localisation",
+      "address": "Eaze House ~2nd Floor, RZP-146 Palam Colony, New Delhi, South West Delhi, 110075",
+      "mapLink": "https://maps.app.goo.gl/H7RTSzRAnT3WYnjr9"
+    },
+    "phone": {
+      "title": "Téléphone",
+      "numbers": ["+91 98731 86168", "+91 99116 84818", "+91 98180 06830"]
+    }
+  }
+}
