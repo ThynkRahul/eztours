@@ -30,7 +30,11 @@ const renderContent = (content: string, links?: IBlogLinks) => {
 
       if (link) {
         return (
-          <a key={index} href={link.url} className="text-[#025C7A] font-semibold underline">
+          <a
+            key={index}
+            href={link.url}
+            className="text-[#025C7A] font-semibold underline"
+          >
             {text}
           </a>
         );
@@ -41,8 +45,9 @@ const renderContent = (content: string, links?: IBlogLinks) => {
   });
 };
 
-const isContentSection = (section: IBlogSection): section is IBlogSection & { content: string } =>
-  "content" in section;
+const isContentSection = (
+  section: IBlogSection
+): section is IBlogSection & { content: string } => "content" in section;
 
 const isBulletPointsSection = (
   section: IBlogSection
@@ -54,12 +59,15 @@ const isSubheadingsSection = (
 ): section is IBlogSection & { subheadings: IBlogSubheading[] } =>
   "subheadings" in section;
 
-const isBulletPoint = (point: string | IBlogBulletPoint): point is IBlogBulletPoint =>
-  typeof point === "object" && "content" in point;
+const isBulletPoint = (
+  point: string | IBlogBulletPoint
+): point is IBlogBulletPoint => typeof point === "object" && "content" in point;
 
 export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
   const blogData = getBlogTranslations(locale);
-  const blog = blogData.find((item) => item.url === blogId) as IBlogDataType | undefined;
+  const blog = blogData.find(
+    (item) => item.url === blogId
+  ) as IBlogDataType | undefined;
 
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
 
@@ -72,42 +80,72 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
   return (
     <div className="mt-[78px] sm:mt-[165px] mx-auto mb-12 max-w-[1200px] w-full px-4">
       <div className="py-6">
+        {/* PAGE HEADING */}
         <h1 className="text-[30px] text-left font-semibold mb-8 sm:text-[45px]">
           {blog.page_heading}
         </h1>
 
         {/* HERO IMAGE */}
         <div className="relative w-full h-[250px] sm:h-[600px] rounded-[40px] overflow-hidden shadow mb-8">
-          <Image src={blog.image} alt={blog.title} fill className="object-cover" priority />
+          <Image
+            src={blog.image}
+            alt={blog.title}
+            fill
+            className="object-cover"
+            priority
+          />
         </div>
 
-        {/* INTRO */}
+        {/* INTRODUCTION */}
+        {blog.structure.introduction.heading && (
+          <h2 className="text-2xl font-semibold mb-4">
+            {blog.structure.introduction.heading}
+          </h2>
+        )}
         <div className="prose prose-lg max-w-none mb-12">
-          <p>{renderContent(blog.structure.introduction.content, blog.structure.introduction.links)}</p>
+          <p>
+            {renderContent(
+              blog.structure.introduction.content,
+              blog.structure.introduction.links
+            )}
+          </p>
         </div>
 
         {/* MAIN SECTIONS */}
         {blog.structure.main_sections.map((section, index) => (
           <div key={index} className="mb-12">
-
+            {/* Heading Before Section */}
             {section.heading_before && (
-              <p className="text-xl font-medium text-gray-600 mb-2">{section.heading_before}</p>
+              <p className="text-xl font-medium text-gray-600 mb-2">
+                {section.heading_before}
+              </p>
             )}
 
-            <h2 className="text-3xl font-semibold mb-4">{section.heading}</h2>
+            {/* Section Heading */}
+            <h2 className="text-3xl font-semibold mb-4">
+              {section.heading || section.title}
+            </h2>
 
+            {/* Section Image */}
             {section.image && (
               <div className="relative w-full h-[300px] rounded-2xl overflow-hidden shadow mb-6">
-                <Image src={section.image} alt={section.heading} fill className="object-cover" />
+                <Image
+                  src={section.image}
+                  alt={section.heading || section.title}
+                  fill
+                  className="object-cover"
+                />
               </div>
             )}
 
+            {/* Content */}
             {isContentSection(section) && (
               <div className="prose prose-lg max-w-none mb-6">
                 <p>{renderContent(section.content, section.links)}</p>
               </div>
             )}
 
+            {/* Bullet Points */}
             {isBulletPointsSection(section) && (
               <ul className="list-disc pl-6 space-y-3">
                 {section.bullet_points.map((point, pointIndex) => (
@@ -125,6 +163,7 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
               </ul>
             )}
 
+            {/* Subheadings */}
             {isSubheadingsSection(section) &&
               section.subheadings.map((sub, i) => (
                 <div key={i} className="mb-6">
@@ -151,13 +190,20 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
               {blog.structure.conclusion.heading}
             </h2>
           )}
-          <p>{renderContent(blog.structure.conclusion.content, blog.structure.conclusion.links)}</p>
+          <p>
+            {renderContent(
+              blog.structure.conclusion.content,
+              blog.structure.conclusion.links
+            )}
+          </p>
         </div>
 
         {/* FAQ */}
         {blog.faq && blog.faq.length > 0 && (
           <div className="mt-16">
-            <h2 className="text-3xl font-bold text-center mb-6">Frequently Asked Questions</h2>
+            <h2 className="text-3xl font-bold text-center mb-6">
+              Frequently Asked Questions
+            </h2>
 
             {blog.faq.map((faqItem, index) => (
               <div key={index} className="border rounded-xl shadow p-4 mb-4">
@@ -168,7 +214,9 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                   {faqItem.question}
                 </button>
 
-                {openFaqIndex === index && <p className="text-gray-600">{faqItem.answer}</p>}
+                {openFaqIndex === index && (
+                  <p className="text-gray-600">{faqItem.answer}</p>
+                )}
               </div>
             ))}
           </div>
