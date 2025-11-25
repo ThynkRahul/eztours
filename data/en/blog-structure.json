@@ -16,7 +16,7 @@
         "heading": "Most Popular India Tour Package Types"
       },
       {
-        "title": "1. Cultural Heritage Tours",
+        "heading": "1. Cultural Heritage Tours",
         "image": "/images/temp/cultural-heritage.jpg",
         "subheadings": [
           {
@@ -49,7 +49,7 @@
         ]
       },
       {
-        "title": "2. Luxury India Tours",
+        "heading": "2. Luxury India Tours",
         "image": "/images/temp/luxury-tours.jpg",
         "subheadings": [
           {
@@ -82,7 +82,7 @@
         ]
       },
       {
-        "title": "3. Adventure & Nature Tours",
+        "heading": "3. Adventure & Nature Tours",
         "image": "/images/temp/adventure-nature.jpg",
         "subheadings": [
           {
@@ -115,7 +115,7 @@
         ]
       },
       {
-        "title": "4. Honeymoon & Romantic Getaways",
+        "heading": "4. Honeymoon & Romantic Getaways",
         "image": "/images/temp/honeymoon-romantic.jpg",
         "subheadings": [
           {
@@ -148,7 +148,7 @@
         ]
       },
       {
-        "title": "5. Family-Friendly Tours",
+        "heading": "5. Family-Friendly Tours",
         "image": "/images/temp/family-tours.jpg",
         "subheadings": [
           {
@@ -179,7 +179,7 @@
         ]
       },
       {
-        "title": "6. Spiritual & Wellness Journeys",
+        "heading": "6. Spiritual & Wellness Journeys",
         "image": "/images/temp/spiritual-wellness.jpg",
         "subheadings": [
           {
@@ -213,7 +213,7 @@
         ]
       },
       {
-        "title": "7. Wildlife & Safari Tours",
+        "heading": "7. Wildlife & Safari Tours",
         "image": "/images/temp/wildlife-safari.jpg",
         "subheadings": [
           {
@@ -246,7 +246,7 @@
         ]
       },
       {
-        "title": "8. Solo Travel Itineraries",
+        "heading": "8. Solo Travel Itineraries",
         "image": "/images/temp/solo-travel.jpg",
         "subheadings": [
           {
@@ -278,62 +278,67 @@
         ]
       },
       {
-        "title": "What’s Included in Each Type of Package",
-        "image": "/images/temp/inclusions.jpg",
+        "heading": "What’s Included in Each Type of Package",
+        "image": "/images/temp/img2.jpg",
         "subheadings": [
           {
+            "title": "Overview",
             "bullet_points": [
-              "Accommodation: Ranging from budget hotels to luxury resorts, boutique stays, or heritage properties.",
-              "Transportation: Private car transfers, domestic flights, trains, or chauffeur-driven vehicles.",
-              "Sightseeing & Activities: Guided tours, entry tickets, local experiences, workshops, safaris, or treks.",
-              "Cuisine Experiences: Breakfast included; optional food tours, cooking classes, or fine-dining experiences.",
-              "Expert Guides: English-speaking local guides or tour leaders, depending on the package.",
-              "24/7 Support: On-ground assistance for seamless travel.",
-              "Custom Add-ons: Spa sessions, adventure sports, luxury cruises, festival experiences, etc."
+              "Accommodation – Ranging from budget hotels to luxury resorts, boutique stays, or heritage properties.",
+              "Transportation – Private car transfers, domestic flights, trains, or chauffeur-driven vehicles.",
+              "Sightseeing & Activities – Guided tours, entry tickets, local experiences, workshops, safaris, or treks.",
+              "Cuisine Experiences – Breakfast included; optional food tours, cooking classes, or fine-dining experiences.",
+              "Expert Guides – English-speaking local guides or tour leaders, depending on the package.",
+              "24/7 Support – On-ground assistance for seamless travel.",
+              "Custom Add-ons – Spa sessions, adventure sports, luxury cruises, festival experiences, etc."
             ]
           }
         ]
       },
       {
-        "title": "How to Choose Your Ideal Travel Style",
-        "image": "/images/temp/travel-style.jpg",
+        "heading": "How to Choose Your Ideal Travel Style",
+        "image": "/images/temp/img2.jpg",
         "subheadings": [
           {
+            "title": "Tips",
             "bullet_points": [
-              "Define Your Purpose of Travel: Adventure, Relaxation, Culture, etc.",
-              "Consider Your Pace: Slow travel, fast itineraries, or a mix.",
-              "Set Your Budget: Luxury vs mid-range vs budget-friendly travel.",
-              "Pick Your Regions of Interest: North, South, East, West India.",
-              "Think About Who You’re Traveling With: Family, partner, solo, friends.",
-              "Decide Your Preferred Experiences: Safari, Trek, Spa, Cooking classes, Festivals, Local markets."
+              "Define Your Purpose of Travel – Adventure, Relaxation, Culture",
+              "Consider Your Pace – Slow, Fast, or Mixed itineraries",
+              "Set Your Budget – Luxury vs mid-range vs budget-friendly",
+              "Pick Your Regions of Interest – North, South, East, West India",
+              "Think About Who You’re Traveling With – Family, partner, solo, friends",
+              "Decide Your Preferred Experiences – Safari, Trek, Spa, Cooking classes, Local markets, Festivals"
             ]
           }
         ]
       },
       {
-        "title": "How Eaze Tours Customizes Trips Based on Preferences",
-        "image": "/images/temp/customization.jpg",
+        "heading": "How Eaze Tours Customizes Trips Based on Preferences",
+        "image": "/images/temp/img4.jpg",
         "subheadings": [
           {
+            "title": "Overview",
             "bullet_points": [
-              "Personal Travel Consultation: We understand your preferences, interests, pace, comfort level, and budget.",
-              "Customized Itinerary Planning: Routes, sightseeing, and experiences curated exclusively for your style.",
-              "Flexible Add-ons: Festival tours, spa sessions, adventure sports, food trails, photography walks—added based on your interests.",
-              "Handpicked Stays: From boutique hotels to luxury palaces, chosen to match your personality.",
-              "Safety & Comfort First: Trusted guides, reliable chauffeurs, and verified accommodations.",
-              "Transparent Pricing: No hidden fees, clearly detailed inclusions."
+              "Personal Travel Consultation – We understand your preferences, interests, pace, comfort level, and budget.",
+              "Customized Itinerary Planning – Routes, sightseeing, and experiences curated exclusively for your style.",
+              "Flexible Add-ons – Festival tours, spa sessions, adventure sports, food trails, photography walks—added based on your interests.",
+              "Handpicked Stays – From boutique hotels to luxury palaces, chosen to match your personality.",
+              "Safety & Comfort First – Trusted guides, reliable chauffeurs, and verified accommodations.",
+              "Transparent Pricing – No hidden fees, clearly detailed inclusions."
             ]
           },
           {
+            "title": "Why Choose This Style:",
             "content": "Whether you're dreaming of a romantic houseboat in Kerala, a thrilling safari in Ranthambore, a peaceful yoga retreat in Rishikesh, or a heritage exploration across Rajasthan—the Eaze Tours team makes it effortless and memorable."
           }
         ]
       },
       {
-        "title": "Tell Us Your Travel Style — Get a Tailor-Made Itinerary",
+        "heading": "Tell Us Your Travel Style — Get a Tailor-Made Itinerary",
         "subheadings": [
           {
-            "content": "Your dream trip to India starts with one question: 👉 What’s your travel style? Share your preferences with us, and Eaze Tours will create a custom, carefully crafted itinerary, perfectly aligned with your interests, time, and budget. Ready to explore India your way? Tell us your travel style and get your dream itinerary today!"
+            "title": "Overview",
+            "content": "Your dream trip to India starts with one question: What’s your travel style? Share your preferences with us, and Eaze Tours will create a custom, carefully crafted itinerary, perfectly aligned with your interests, time, and budget. Ready to explore India your way? Tell us your travel style and get your dream itinerary today!"
           }
         ]
       }
