@@ -122,9 +122,9 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
             )}
 
             {/* Section Heading */}
-            <h2 className="text-3xl font-semibold mb-4">
-              {section.heading || section.title}
-            </h2>
+            {section.heading && (
+  <h2 className="text-3xl font-semibold mb-4">{section.heading}</h2>
+)}
 
             {/* Section Image */}
             {section.image && (
