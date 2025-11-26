@@ -128,15 +128,16 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
 
             {/* Section Image */}
             {section.image && (
-              <div className="relative w-full h-[300px] rounded-2xl overflow-hidden shadow mb-6">
-                <Image
-                  src={section.image}
-                  alt={section.heading || section.title}
-                  fill
-                  className="object-cover"
-                />
-              </div>
-            )}
+  <div className="relative w-full h-[300px] rounded-2xl overflow-hidden shadow mb-6">
+    <Image
+      src={section.image}
+      alt={section.heading}
+      fill
+      className="object-cover"
+    />
+  </div>
+)}
+
 
             {/* Content */}
             {isContentSection(section) && (
