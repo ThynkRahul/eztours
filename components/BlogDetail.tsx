@@ -18,18 +18,11 @@ interface BlogDetailProps {
 }
 
 const renderContent = (content: string, links?: IBlogLinks) => {
-  if (!links || links.length === 0) {
-    return content.split("\n\n").map((line, i) => (
-      <p key={i} className="mb-4">
-        {line}
-      </p>
-    ));
-  }
+  if (!links || links.length === 0) return content;
 
-  // Split links first
   const parts = content.split(/({{LINK:[^:]+:[^}]+}})/g);
 
-  const renderedParts = parts.flatMap((part, index) => {
+  return parts.map((part, index) => {
     const match = part.match(/{{LINK:([^:]+):([^}]+)}}/);
     if (match) {
       const [, linkKey, text] = match;
@@ -48,18 +41,8 @@ const renderContent = (content: string, links?: IBlogLinks) => {
       }
     }
 
-    return part;
+    return <span key={index}>{part}</span>;
   });
-
-  // Split by \n\n for paragraphs
-  return renderedParts
-    .join("")
-    .split("\n\n")
-    .map((line, i) => (
-      <p key={i} className="mb-4">
-        {line}
-      </p>
-    ));
 };
 
 const isContentSection = (
@@ -82,9 +65,9 @@ const isBulletPoint = (
 
 export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
   const blogData = getBlogTranslations(locale);
-  const blog = blogData.find((item) => item.url === blogId) as
-    | IBlogDataType
-    | undefined;
+  const blog = blogData.find(
+    (item) => item.url === blogId
+  ) as IBlogDataType | undefined;
 
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
 
@@ -120,10 +103,12 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
           </h2>
         )}
         <div className="prose prose-lg max-w-none mb-12">
-          {renderContent(
-            blog.structure.introduction.content,
-            blog.structure.introduction.links
-          )}
+          <p>
+            {renderContent(
+              blog.structure.introduction.content,
+              blog.structure.introduction.links
+            )}
+          </p>
         </div>
 
         {/* MAIN SECTIONS */}
@@ -156,28 +141,25 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
             {/* Content */}
             {isContentSection(section) && (
               <div className="prose prose-lg max-w-none mb-6">
-                {renderContent(section.content, section.links)}
+                <p>{renderContent(section.content, section.links)}</p>
               </div>
             )}
 
             {/* Bullet Points */}
             {isBulletPointsSection(section) && (
               <ul className="list-disc pl-6 space-y-3">
-                {section.bullet_points.map((point, pointIndex) => {
-                  const isBullet = isBulletPoint(point);
-                  return (
-                    <li key={pointIndex}>
-                      {isBullet ? (
-                        <>
-                          {point.title && <strong>{point.title}: </strong>}
-                          {renderContent(point.content, point.links ?? section.links)}
-                        </>
-                      ) : (
-                        renderContent(point, section.links)
-                      )}
-                    </li>
-                  );
-                })}
+                {section.bullet_points.map((point, pointIndex) => (
+                  <li key={pointIndex}>
+                    {isBulletPoint(point) ? (
+                      <>
+                        {point.title && <strong>{point.title}: </strong>}
+                        <span>{renderContent(point.content, point.links ?? section.links)}</span>
+                      </>
+                    ) : (
+                      <span>{renderContent(point, section.links)}</span>
+                    )}
+                  </li>
+                ))}
               </ul>
             )}
 
@@ -187,25 +169,23 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                 <div key={i} className="mb-6">
                   <h3 className="text-xl font-semibold mb-2">{sub.title}</h3>
 
-                  {sub.content &&
-                    renderContent(sub.content, sub.links ?? section.links)}
+                  {sub.content && <p>{renderContent(sub.content, sub.links)}</p>}
 
                   {sub.bullet_points && (
                     <ul className="list-disc pl-6 space-y-2">
                       {sub.bullet_points.map((b, idx) => {
-                        const isBullet = isBulletPoint(b);
-                        return (
-                          <li key={idx}>
-                            {isBullet ? (
-                              <>
-                                {b.title && <strong>{b.title}: </strong>}
-                                {renderContent(b.content, b.links ?? sub.links)}
-                              </>
-                            ) : (
-                              renderContent(b, sub.links ?? section.links)
-                            )}
-                          </li>
-                        );
+                        const isBullet = typeof b === "object" && "content" in b;
+                        if (isBullet) {
+                          const bullet = b as IBlogBulletPoint;
+                          return (
+                            <li key={idx}>
+                              {bullet.title && <strong>{bullet.title}: </strong>}
+                              <span>{renderContent(bullet.content, bullet.links ?? sub.links)}</span>
+                            </li>
+                          );
+                        } else {
+                          return <li key={idx}>{renderContent(b as string, sub.links)}</li>;
+                        }
                       })}
                     </ul>
                   )}
@@ -221,10 +201,12 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
               {blog.structure.conclusion.heading}
             </h2>
           )}
-          {renderContent(
-            blog.structure.conclusion.content,
-            blog.structure.conclusion.links
-          )}
+          <p>
+            {renderContent(
+              blog.structure.conclusion.content,
+              blog.structure.conclusion.links
+            )}
+          </p>
         </div>
 
         {/* FAQ */}
