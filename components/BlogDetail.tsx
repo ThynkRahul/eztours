@@ -123,21 +123,20 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
 
             {/* Section Heading */}
             {section.heading && (
-  <h2 className="text-3xl font-semibold mb-4">{section.heading}</h2>
-)}
+              <h2 className="text-3xl font-semibold mb-4">{section.heading}</h2>
+            )}
 
             {/* Section Image */}
             {section.image && (
-  <div className="relative w-full h-[300px] rounded-2xl overflow-hidden shadow mb-6">
-    <Image
-      src={section.image}
-      alt={section.heading}
-      fill
-      className="object-cover"
-    />
-  </div>
-)}
-
+              <div className="relative w-full h-[300px] rounded-2xl overflow-hidden shadow mb-6">
+                <Image
+                  src={section.image}
+                  alt={section.heading}
+                  fill
+                  className="object-cover"
+                />
+              </div>
+            )}
 
             {/* Content */}
             {isContentSection(section) && (
@@ -153,8 +152,8 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                   <li key={pointIndex}>
                     {isBulletPoint(point) ? (
                       <>
-                        <strong>{point.title}</strong>
-                        <p>{renderContent(point.content, section.links)}</p>
+                        {point.title && <strong>{point.title}: </strong>}
+                        <span>{renderContent(point.content, point.links ?? section.links)}</span>
                       </>
                     ) : (
                       <span>{renderContent(point, section.links)}</span>
@@ -175,7 +174,16 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                   {sub.bullet_points && (
                     <ul className="list-disc pl-6 space-y-2">
                       {sub.bullet_points.map((b, idx) => (
-                        <li key={idx}>{b}</li>
+                        <li key={idx}>
+                          {typeof b === "string" ? (
+                            <span>{renderContent(b, sub.links)}</span>
+                          ) : (
+                            <>
+                              {b.title && <strong>{b.title}: </strong>}
+                              <span>{renderContent(b.content, b.links ?? sub.links)}</span>
+                            </>
+                          )}
+                        </li>
                       ))}
                     </ul>
                   )}
