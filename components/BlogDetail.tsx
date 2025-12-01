@@ -65,9 +65,9 @@ const isBulletPoint = (
 
 export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
   const blogData = getBlogTranslations(locale);
-  const blog = blogData.find((item) => item.url === blogId) as
-    | IBlogDataType
-    | undefined;
+  const blog = blogData.find(
+    (item) => item.url === blogId
+  ) as IBlogDataType | undefined;
 
   const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(0);
 
@@ -153,7 +153,7 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                     {isBulletPoint(point) ? (
                       <>
                         {point.title && <strong>{point.title}: </strong>}
-                        <span>{renderContent(point.content, section.links)}</span>
+                        <span>{renderContent(point.content, point.links ?? section.links)}</span>
                       </>
                     ) : (
                       <span>{renderContent(point, section.links)}</span>
@@ -169,26 +169,23 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                 <div key={i} className="mb-6">
                   <h3 className="text-xl font-semibold mb-2">{sub.title}</h3>
 
-                  {sub.content && (
-                    <p>{renderContent(sub.content, sub.links)}</p>
-                  )}
+                  {sub.content && <p>{renderContent(sub.content, sub.links)}</p>}
 
                   {sub.bullet_points && (
                     <ul className="list-disc pl-6 space-y-2">
                       {sub.bullet_points.map((b, idx) => {
                         const isBullet = typeof b === "object" && "content" in b;
-                        return (
-                          <li key={idx}>
-                            {isBullet ? (
-                              <>
-                                {b.title && <strong>{b.title}: </strong>}
-                                <span>{renderContent(b.content, b.links ?? sub.links)}</span>
-                              </>
-                            ) : (
-                              <span>{renderContent(b as string, sub.links)}</span>
-                            )}
-                          </li>
-                        );
+                        if (isBullet) {
+                          const bullet = b as IBlogBulletPoint;
+                          return (
+                            <li key={idx}>
+                              {bullet.title && <strong>{bullet.title}: </strong>}
+                              <span>{renderContent(bullet.content, bullet.links ?? sub.links)}</span>
+                            </li>
+                          );
+                        } else {
+                          return <li key={idx}>{renderContent(b as string, sub.links)}</li>;
+                        }
                       })}
                     </ul>
                   )}
