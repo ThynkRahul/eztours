@@ -21,7 +21,14 @@
         "subheadings": [
           {
             "title": "",
-            "content": "India is a tapestry of kings, empires, traditions, and timeless artistry. Cultural heritage tours offer a deep dive into the architectural, historical, and cultural richness of the country. One of the most sought-after experiences is the Rajasthan forts and palaces tour, which showcases India’s royal past through grand architectures and vibrant cultural stories."
+            "content": "India is a tapestry of kings, empires, traditions, and timeless artistry. Cultural heritage tours offer a deep dive into the architectural, historical, and cultural richness of the country. One of the most sought-after experiences is the Rajasthan forts and palaces tour, which showcases India’s royal past through grand architectures and vibrant cultural stories. Experience {{LINK:forts:Forts & palaces of Rajasthan}} for an unforgettable journey.",
+            "links": [
+              {
+                "key": "forts",
+                "text": "Forts & palaces of Rajasthan",
+                "url": "https://www.eazetours.com/packages/forts-and-palaces-india"
+              }
+            ]
           },
           {
             "title": "Best For:",
@@ -36,10 +43,17 @@
             "title": "Highlights Typically Include:",
             "bullet_points": [
               "Taj Mahal and Mughal heritage in Agra",
-              "Forts & palaces of Rajasthan",
+              "{{LINK:forts:Forts & palaces of Rajasthan}}",
               "Temple towns like Varanasi, Khajuraho, Madurai, and Konark",
               "Colonial architecture in Kolkata and Mumbai",
               "UNESCO World Heritage sites across India"
+            ],
+            "links": [
+              {
+                "key": "forts",
+                "text": "Forts & palaces of Rajasthan",
+                "url": "https://www.eazetours.com/packages/forts-and-palaces-india"
+              }
             ]
           },
           {
@@ -54,7 +68,14 @@
         "subheadings": [
           {
             "title": "",
-            "content": "India’s luxury travel segment is world-renowned. From palace hotels to private safaris, luxury trains to wellness retreats, these packages redefine indulgence. Many travelers especially love exploring India through curated luxury rail experiences like the Palace on Wheels package, offering unmatched royal-style travel."
+            "content": "India’s luxury travel segment is world-renowned. From palace hotels to private safaris, luxury trains to wellness retreats, these packages redefine indulgence. Many travelers especially love exploring India through curated luxury rail experiences like the {{LINK:palace:Palace on Wheels}} package, offering unmatched royal-style travel.",
+            "links": [
+              {
+                "key": "palace",
+                "text": "Palace on Wheels",
+                "url": "https://www.eazetours.com/packages/palace-on-wheels-tour-package-india"
+              }
+            ]
           },
           {
             "title": "Best For:",
@@ -71,8 +92,15 @@
               "Stays in iconic luxury hotels",
               "Private chauffeurs and professional guides",
               "Fine-dining experiences and curated local cuisine trails",
-              "Luxury trains like Golden Chariot & Palace on Wheels",
+              "Luxury trains like Golden Chariot & {{LINK:palace:Palace on Wheels}}",
               "Exclusive Ayurvedic spas and wellness resorts"
+            ],
+            "links": [
+              {
+                "key": "palace",
+                "text": "Palace on Wheels",
+                "url": "https://www.eazetours.com/packages/palace-on-wheels-tour-package-india"
+              }
             ]
           },
           {
@@ -87,7 +115,14 @@
         "subheadings": [
           {
             "title": "",
-            "content": "From trekking to river rafting, from camping in valleys to exploring national parks, adventure tours deliver high-energy thrills and nature-centric escapes. One of the most iconic Himalayan adventures is the Markha Valley Trekking Tour, perfect for trekkers who want to explore Ladakh’s raw, rugged landscapes."
+            "content": "From trekking to river rafting, from camping in valleys to exploring national parks, adventure tours deliver high-energy thrills and nature-centric escapes. One of the most iconic Himalayan adventures is the {{LINK:markha:Markha Valley Trekking Tour}}, perfect for trekkers who want to explore Ladakh’s raw, rugged landscapes.",
+            "links": [
+              {
+                "key": "markha",
+                "text": "Markha Valley Trekking Tour",
+                "url": "https://www.eazetours.com/packages/markha-trek-leh-travel-package"
+              }
+            ]
           },
           {
             "title": "Best For:",
@@ -120,7 +155,14 @@
         "subheadings": [
           {
             "title": "",
-            "content": "India’s diverse romantic destinations are perfect for newlyweds or couples celebrating milestones. The Romantic Andaman Package is especially popular, offering turquoise beaches, candle-light dinners, and luxurious resort stays."
+            "content": "India’s diverse romantic destinations are perfect for newlyweds or couples celebrating milestones. The {{LINK:andaman:Romantic Andaman Package}} is especially popular, offering turquoise beaches, candle-light dinners, and luxurious resort stays.",
+            "links": [
+              {
+                "key": "andaman",
+                "text": "Romantic Andaman Package",
+                "url": "https://www.eazetours.com/packages/romantic-andaman-tour-package-india"
+              }
+            ]
           },
           {
             "title": "Best For:",
@@ -134,11 +176,18 @@
             "title": "Highlights Typically Include:",
             "bullet_points": [
               "Houseboat stays in Kerala",
-              "Beach resorts in Andaman with options like the Romantic Andaman Package",
+              "Beach resorts in Andaman with options like the {{LINK:andaman:Romantic Andaman Package}}",
               "Luxury palace stays in Udaipur or Jaipur",
               "Private candle-light dinners",
               "Couple spa therapies",
               "Sunset cruises and nature walks"
+            ],
+            "links": [
+              {
+                "key": "andaman",
+                "text": "Romantic Andaman Package",
+                "url": "https://www.eazetours.com/packages/romantic-andaman-tour-package-india"
+              }
             ]
           },
           {
@@ -184,7 +233,14 @@
         "subheadings": [
           {
             "title": "",
-            "content": "India is synonymous with spirituality. Whether you’re seeking inner peace, rejuvenation, or religious exploration, spiritual and wellness tours offer transformative experiences. For many devotees, the Chardham Yatra Tour Package is a profound spiritual journey through Uttarakhand’s sacred Himalayan shrines."
+            "content": "India is synonymous with spirituality. Whether you’re seeking inner peace, rejuvenation, or religious exploration, spiritual and wellness tours offer transformative experiences. For many devotees, the {{LINK:chardham:Chardham Yatra Tour Package}} is a profound spiritual journey through Uttarakhand’s sacred Himalayan shrines.",
+            "links": [
+              {
+                "key": "chardham",
+                "text": "Chardham Yatra Tour Package",
+                "url": "https://www.eazetours.com/packages/chardham-pilgrimage-tour-package-india"
+              }
+            ]
           },
           {
             "title": "Best For:",
@@ -201,9 +257,16 @@
               "Yoga retreats in Rishikesh, Mysore, Kerala",
               "Meditation programs in monasteries & ashrams",
               "Visits to sacred sites (Varanasi, Rameswaram, Amritsar, Bodh Gaya)",
-              "Pilgrimage circuits like the Chardham Yatra Tour Package",
+              "Pilgrimage circuits like the {{LINK:chardham:Chardham Yatra Tour Package}}",
               "Ayurvedic healing and spa therapies",
               "Temple darshans and cultural rituals"
+            ],
+            "links": [
+              {
+                "key": "chardham",
+                "text": "Chardham Yatra Tour Package",
+                "url": "https://www.eazetours.com/packages/chardham-pilgrimage-tour-package-india"
+              }
             ]
           },
           {
@@ -218,7 +281,14 @@
         "subheadings": [
           {
             "title": "",
-            "content": "India’s biodiversity is a paradise for wildlife lovers. With a variety of India wildlife tour packages, travelers can encounter tigers, elephants, rhinos, and exotic birds across diverse ecosystems."
+            "content": "India’s biodiversity is a paradise for wildlife lovers. With a variety of {{LINK:wildlife:India wildlife tour packages}}, travelers can encounter tigers, elephants, rhinos, and exotic birds across diverse ecosystems.",
+            "links": [
+              {
+                "key": "wildlife",
+                "text": "India wildlife tour packages",
+                "url": "https://www.eazetours.com/packages/wildlife-safari-tour-package-india"
+              }
+            ]
           },
           {
             "title": "Best For:",
@@ -245,6 +315,7 @@
           }
         ]
       },
+
       {
         "heading": "8. Solo Travel Itineraries",
         "image": "",
@@ -334,7 +405,7 @@
         ]
       },
       {
-        "heading": "Tell Us Your Travel Style — Get a Tailor-Made Itinerary",
+        "heading": "Tell Us Your Travel Style - Get a Tailor-Made Itinerary",
         "subheadings": [
           {
             "title": "Your dream trip to India starts with one question:",
@@ -342,13 +413,13 @@
           }
         ]
       }
+      
     ],
     "conclusion": {
       "heading": "",
       "content": ""
     }
   },
-
   "faq": [
       {
         "question": "1. What are the most popular types of India tour packages?",
