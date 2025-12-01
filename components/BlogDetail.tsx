@@ -17,20 +17,19 @@ interface BlogDetailProps {
   locale: string;
 }
 
-// Helper to render content with links and line breaks
 const renderContent = (content: string, links?: IBlogLinks) => {
   if (!links || links.length === 0) {
-    return content.split("\n").map((line, i) => (
-      <React.Fragment key={i}>
+    return content.split("\n\n").map((line, i) => (
+      <p key={i} className="mb-4">
         {line}
-        <br />
-      </React.Fragment>
+      </p>
     ));
   }
 
+  // Split links first
   const parts = content.split(/({{LINK:[^:]+:[^}]+}})/g);
 
-  return parts.flatMap((part, index) => {
+  const renderedParts = parts.flatMap((part, index) => {
     const match = part.match(/{{LINK:([^:]+):([^}]+)}}/);
     if (match) {
       const [, linkKey, text] = match;
@@ -49,13 +48,18 @@ const renderContent = (content: string, links?: IBlogLinks) => {
       }
     }
 
-    return part.split("\n").map((line, i) => (
-      <React.Fragment key={`${index}-${i}`}>
-        {line}
-        <br />
-      </React.Fragment>
-    ));
+    return part;
   });
+
+  // Split by \n\n for paragraphs
+  return renderedParts
+    .join("")
+    .split("\n\n")
+    .map((line, i) => (
+      <p key={i} className="mb-4">
+        {line}
+      </p>
+    ));
 };
 
 const isContentSection = (
@@ -116,27 +120,28 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
           </h2>
         )}
         <div className="prose prose-lg max-w-none mb-12">
-          <p>
-            {renderContent(
-              blog.structure.introduction.content,
-              blog.structure.introduction.links
-            )}
-          </p>
+          {renderContent(
+            blog.structure.introduction.content,
+            blog.structure.introduction.links
+          )}
         </div>
 
         {/* MAIN SECTIONS */}
         {blog.structure.main_sections.map((section, index) => (
           <div key={index} className="mb-12">
+            {/* Heading Before Section */}
             {section.heading_before && (
               <p className="text-xl font-medium text-gray-600 mb-2">
                 {section.heading_before}
               </p>
             )}
 
+            {/* Section Heading */}
             {section.heading && (
               <h2 className="text-3xl font-semibold mb-4">{section.heading}</h2>
             )}
 
+            {/* Section Image */}
             {section.image && (
               <div className="relative w-full h-[300px] rounded-2xl overflow-hidden shadow mb-6">
                 <Image
@@ -151,7 +156,7 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
             {/* Content */}
             {isContentSection(section) && (
               <div className="prose prose-lg max-w-none mb-6">
-                <p>{renderContent(section.content, section.links)}</p>
+                {renderContent(section.content, section.links)}
               </div>
             )}
 
@@ -165,15 +170,10 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                       {isBullet ? (
                         <>
                           {point.title && <strong>{point.title}: </strong>}
-                          <span>
-                            {renderContent(
-                              point.content,
-                              point.links ?? section.links
-                            )}
-                          </span>
+                          {renderContent(point.content, point.links ?? section.links)}
                         </>
                       ) : (
-                        <span>{renderContent(point, section.links)}</span>
+                        renderContent(point, section.links)
                       )}
                     </li>
                   );
@@ -187,9 +187,8 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                 <div key={i} className="mb-6">
                   <h3 className="text-xl font-semibold mb-2">{sub.title}</h3>
 
-                  {sub.content && (
-                    <p>{renderContent(sub.content, sub.links ?? section.links)}</p>
-                  )}
+                  {sub.content &&
+                    renderContent(sub.content, sub.links ?? section.links)}
 
                   {sub.bullet_points && (
                     <ul className="list-disc pl-6 space-y-2">
@@ -200,10 +199,10 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
                             {isBullet ? (
                               <>
                                 {b.title && <strong>{b.title}: </strong>}
-                                <span>{renderContent(b.content, b.links ?? sub.links ?? section.links)}</span>
+                                {renderContent(b.content, b.links ?? sub.links)}
                               </>
                             ) : (
-                              <span>{renderContent(b, sub.links ?? section.links)}</span>
+                              renderContent(b, sub.links ?? section.links)
                             )}
                           </li>
                         );
@@ -222,12 +221,10 @@ export default function BlogDetail({ blogId, locale }: BlogDetailProps) {
               {blog.structure.conclusion.heading}
             </h2>
           )}
-          <p>
-            {renderContent(
-              blog.structure.conclusion.content,
-              blog.structure.conclusion.links
-            )}
-          </p>
+          {renderContent(
+            blog.structure.conclusion.content,
+            blog.structure.conclusion.links
+          )}
         </div>
 
         {/* FAQ */}
